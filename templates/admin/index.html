@@ -1,0 +1,15 @@
+
+{% extends "admin/index.html" %}
+{% load static %}
+
+{% block content %}
+
+<div class="custom-actions">
+    <a href="{% url 'export_all_data' %}" class="button">Export All Data</a>
+    <a href="{% url 'import_all_data' %}" class="button">Import All Data</a>
+    <a href="{% url 'clear_database' %}" class="button">Clear Database</a>
+</div>
+
+<hr>
+{{ block.super }}
+{% endblock %}

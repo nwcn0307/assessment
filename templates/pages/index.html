@@ -1,0 +1,49 @@
+{% extends "base.html" %} {% load humanize %} {% load static %}
+{% block content %}
+
+    <!-- Team Section -->
+<section>
+  <div class="container">
+    <div class="accordion" id="accordionExample">
+      <!--breadcrumb-->
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb"style="width: 100%;">
+          <li class="breadcrumb-item">
+            <a href="{% url 'index' %}"> <i class="fas fa-home"></i> Home</a>
+          </li>
+          <li class="breadcrumb-item active">Resources</li>
+        </ol>
+      </nav>
+      <div class="card">
+            <div class="container-fluid" style="overflow: auto; height: 500px;">
+              <div class="row row-cols-1 row-cols-md-3">
+                {% comment %}add if statement and for loop in here{% endcomment %}
+                {% if resources %}
+                  {% for resource in resources %}
+                  <div class="col mb-4">
+                    <div class="card border-dark h-100">
+                      {% comment %} fix image {% endcomment %}
+                      <img src="{{ resource.photo.url }}" class="card-img-top" alt="..." style="width: auto; height: 230px;">
+                      <div class="card-body">
+                        {% comment %} fix card-title {% endcomment %}
+                        <h5 class="card-title">{{resource.title}}</h5>
+                        {% comment %} fix card-text {% endcomment %}
+                        <p class="card-text">{{resource.description}}</p>
+                        {% comment %} fix href url {% endcomment %}
+                        <a href="{{resource.website}}" class="btn btn-primary btn-block">View More</a>
+                      </div>
+                      {% comment %} fix list-data {% endcomment %}
+                      <div class="card-footer text-center"><i class="fas fa-clock"></i> {{resource.list_date | timesince}}</div>
+                    </div>
+                  </div>
+                  {% endfor %}
+                {% endif %}
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>      
+</section>
+
+{% endblock %}

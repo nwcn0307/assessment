@@ -1,0 +1,67 @@
+{% extends "base.html" %} {% load humanize %} {% load static %}
+{% block content %}
+
+    <!-- Team Section -->
+<section>
+  <div class="container">
+    <div class="accordion" id="accordionExample">
+      <!--breadcrumb-->
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb"style="width: 100%;">
+          <li class="breadcrumb-item">
+            <a href="{% url 'index' %}"> <i class="fas fa-home"></i> Home</a>
+          </li>
+          <li class="breadcrumb-item active">Resources</li>
+        </ol>
+      </nav>
+      <div class="card">
+        <!-- File Upload Form -->
+        <form method="POST" enctype="multipart/form-data">
+          {% csrf_token %}
+          <div class="form-group">
+            <label for="excel_file">Upload Excel File:</label>
+            <input type="file" name="excel_file" id="excel_file" class="form-control">
+          </div>
+          <button type="submit" class="btn btn-primary">Upload</button>
+        </form>
+
+        <!--a class="btn btn-info" href="{% url 'import_execl_data' %}"> <h3>Import Execl Stock Enquiry</h3></a-->
+
+        {% if st_datas %}
+        <p>Here are the stock data you uploaded:</p>
+        <!--p>Here are the {{st_data.code}} that you have applied about :</p-->
+        <table class="table">
+          <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Code</th>
+                <th scope="col">Date</th>
+                <th scope="col">price</th>
+                <th scope="col">Qty</th>
+                <th scope="col">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for st_data in st_datas %}
+              <tr>
+                <td>{{ forloop.counter }}</td>
+                <td>{{ st_data.code }}</td>
+                <td>{{ st_data.date }}</td>
+                <td>{{ st_data.price }}</td>
+                <td>{{ st_data.Qty }}</td>
+                <td><a class="btn btn-info" href="{% url 'edit_st_data' st_data.pk %}">edit</a>
+                </td>
+              </tr>
+              {% endfor %}     
+            </tbody>
+          </table>
+        {% else %}
+        <p>You had no stock data input!</p>
+        {% endif %}
+        {% comment %} <a class="btn btn-info" href="{% url 'import_data_action' %}"> Save Stock Record</a> {% endcomment %}
+      </div>
+    </div>
+  </div>      
+</section>
+
+{% endblock %}

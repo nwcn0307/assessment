@@ -1,0 +1,21 @@
+.about-section {
+    padding: 50px 0;
+}
+.about-content {
+    background: rgba(26, 26, 46, 0.8); /* Semi-transparent dark background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.about-content h2 {
+    color: #d1b3ff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.about-content p {
+    color: #ccc;
+    line-height: 1.8;
+}
+.about-content p span {
+    color: #d1b3ff; /* Highlight important text */
+}

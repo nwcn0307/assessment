@@ -1,0 +1,51 @@
+{% extends "base.html" %} {% load static %} {% block content %}
+<div class="container">
+  <h1>about</h1>
+</div>
+
+<!-- Showcase-inner -->
+
+<!-- Breadcrumb -->
+<section id="bc" class="mt-3">
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="{% url 'index' %}"> <i class="fas fa-home"></i> Home</a>
+        </li>
+        <li class="breadcrumb-item active">About</li>
+      </ol>
+    </nav>
+  </div>
+</section>
+
+<section id="about" class="py-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <h3>We Search some stocks info for study:</h3>
+        <p class="lead">
+          This web major for stock record history and news info.
+        </p>
+        <!--img src="{% static 'img/about.jpg' %}" alt="" /-->
+        <p class="mt-4">
+          <ol>
+            <li>
+              Easy to find stock history form few finance website
+            </li>
+            <li>
+              Focus News on exveryday
+            </li>
+            <li>
+              Easy to manage your finance record
+            </li>
+            
+          </ol>
+
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock %}

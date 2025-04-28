@@ -1,0 +1,16 @@
+#background-image{
+    background-image: url("../img/robotgradientintro2.jpg");
+    height: 80vmin;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  #div-text{
+    color: white;
+    text-align: left;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+  }

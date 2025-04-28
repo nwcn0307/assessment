@@ -1,0 +1,42 @@
+[
+{
+    "model": "pages.resource",
+    "pk": 1,
+    "fields": {
+        "name": "HKEX",
+        "photo": "photos/2025/04/27/HKEX_25A_Logo_Group_Market_Mono.png",
+        "description": "結合資本、概念、靈感與創意，構建更多元、沉穩以及更具流動性的全球資本市場，隨時隨地為客戶提供更多投資選擇和機遇。",
+        "website": "https://www.hkex.com.hk/Market-Data/Securities-Prices/Equities?sc_lang=zh-HK"
+    }
+},
+{
+    "model": "pages.resource",
+    "pk": 2,
+    "fields": {
+        "name": "aastocks",
+        "photo": "photos/2025/04/27/aastocks.png",
+        "description": "巿場  動態  報價  分析  新聞論  牛熊認股證  ETF  MPF  財金教學",
+        "website": "https://www.aastocks.com/tc/stocks/market/index/hk-index-con.aspx?index=HSI"
+    }
+},
+{
+    "model": "pages.resource",
+    "pk": 3,
+    "fields": {
+        "name": "yahoo finance",
+        "photo": "photos/2025/04/27/yahoofincance_DKZjajn.png",
+        "description": "投資組合    新聞    外幣    港股    美股    行情    財經日曆    地產    理財    專欄    財經大人物    媒體總覽    AI大時代    全球關稅戰",
+        "website": "https://hk.finance.yahoo.com/quote/%5EHSI/"
+    }
+},
+{
+    "model": "pages.resource",
+    "pk": 4,
+    "fields": {
+        "name": "HKET",
+        "photo": "photos/2025/04/28/hket.png",
+        "description": "即時新聞  財經  理財  科技  中國  國際  商業  大灣區  ESG  博客  TV  投資百科",
+        "website": "https://inews.hket.com/sran009/%E5%8D%B3%E5%B8%82%E8%B2%A1%E7%B6%93"
+    }
+}
+]

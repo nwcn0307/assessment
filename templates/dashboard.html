@@ -1,0 +1,274 @@
+{% extends "base.html" %} {% load humanize %} {% block content %}
+<!-- showcase-inner -->
+
+<section id="" class="py-5 text-white">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-12 bg-primary">
+          <h1 class="display-4">User Dashboard</h1>
+          <p class="lead">Manage your ITTC account</p>
+        </div>
+      </div>
+    </div>
+</section>
+
+  <!-- Breadcrumb -->
+<section id="bc" class="mt-3">
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="{% url 'index' %}"> <i class="fas fa-home"></i> Home</a>
+        </li>
+        <li class="breadcrumb-item active">Dashboard</li>
+      </ol>
+    </nav>
+  </div>
+</section>
+
+<section id="dashboard" class="py-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2>Welcome {{user.first_name | title}}</h2>
+        {% comment %} Activities inqury {% endcomment %}
+        <h3>Activity Enquiry</h3>
+        {% if activity_contacts %}
+        <p>Here are the Activity listings that you have applied about :</p>
+        <table class="table">
+          <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Activity</th>
+                <th scope="col">Date</th>
+                <th scope="col">Time</th>
+                <th scope="col">Price</th>
+                <th scope="col">Paid</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for activity_contact in activity_contacts %}
+              {% comment %} {% with activity.id= activity_contact.activity_id %}{% endwith %} {% endcomment %}
+              <tr>
+                <td>{{activity_contact.activity_id}}</td>
+                <td>{{activity_contact.activity}}</td>
+                <td>{% if activity_contact.activity.date_start == activity_contact.activity.date_end %}
+                  {{activity_contact.activity.date_start}}
+                  {% else %}
+                  {{activity_contact.activity.date_start}} To {{activity_contact.activity.date_end}}
+                  {% endif %}</td>
+                <td>{% if activity_contact.activity.date_start == activity_contact.activity.date_end %}
+                  {{activity_contact.activity.time_start}}
+                  {% else %}
+                  {{activity_contact.activity.time_start}} To {{activity_contact.activity.time_end}}
+                  {% endif %}</td>
+                <td>{{activity_contact.activity.price}}</td>
+                <td>{{activity_contact.is_paid}}</td>
+                <td><a class="btn btn-info" href="{% url 'activity' activity_contact.activity_id %}">Activity Detail Info</a>
+                </td>
+              </tr>
+              {% endfor %}     
+            </tbody>
+          </table>
+        {% else %}
+        <p>You had no apply activity!</p>
+        {% endif %}
+        <hr/>
+        <br/>
+        <hr/>
+        {% comment %} course inquiry {% endcomment %}
+        <h3>Course Enquiry</h3>
+        {% if course_contacts %}
+        <p>Here are the course listings that you have applied about :</p>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">course</th>
+              <th scope="col">Date</th>
+              <th scope="col">Time</th>
+              <th scope="col">Price</th>
+              <th scope="col">Paid</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for course_contact in course_contacts %}
+            <tr>
+                <td>{{course_contact.course_id}}</td>
+                <td>{{course_contact.course}}</td>
+                <td>{% if course_contact.course.date_start == course_contact.course.date_end %} 
+                    {{course_contact.course.date_start}}
+                    {% else %}
+                    {{course_contact.course.date_start}} To {{course_contact.course.date_end}}
+                    {% endif %}</td>
+                <td>{% if course_contact.course.date_start == course_contact.course.date_end %}
+                    {{course_contact.course.time_start}}
+                    {% else %}
+                    {{course_contact.course.time_start}} To {{course_contact.course.time_end}}
+                    {% endif %}</td>
+                <td>{{course_contact.course.price}}</td>
+                <td>{{course_contact.is_paid}}</td>
+                <td><a class="btn btn-info" href="{% url 'course' course_contact.course_id %}">Course Detail Info
+              </tr>
+            {% endfor %}                                
+          </tbody>
+        </table>
+        {% else %}
+        <p>You had no apply course</p>
+        {% endif %}
+        <hr/>
+        <br/>
+        <hr/>
+        {% comment %} products inquiry {% endcomment %}
+        <h3>Product Enquiry</h3>
+        {% if product_contacts %}
+        <p>Here are the product inquity lists that you have applied about :</p>
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Category</th>
+                <th scope="col">Product</th>
+                <th scope="col">Salesmen</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for product_contact in product_contacts %}
+              <tr>
+                <td>{{product_contact.id}}</td>
+                <td>{{product_contact.product.title}}</td>
+                <td>{{product_contact.product.no}}</td>
+                <td>{{product_contact.product.salesmen.name}}</td>
+                <td><a class="btn btn-info" href="{% url 'product' product_contact.product_id %}">Product Detail Info</a>
+                </td>
+              </tr>
+              {% endfor %}                                
+            </tbody>
+        </table>
+        {% else %}
+        <p>You had no any product info inquiry</p>
+        {% endif %}
+        <hr/>
+        <br/>
+        <hr/>
+        <!-- Pending Shopping Cart -->
+        {% if pending_cart %}
+        <h3>Pending Shopping Cart</h3>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Product</th>
+              <th>Price</th>
+              <th>Quantity</th>
+              <th>Amount</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for order in pending_cart.orders.all %}
+            <tr>
+              <td>{{ order.id }}</td>
+              <td>{{ order.product }}</td>
+              <td>${{ order.price }}</td>
+              <td>{{ order.onOrderQty }}</td>
+              <td>${{ order.amount }}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+        {% else %}
+        <p>You have no pending shopping cart.</p>
+        {% endif %}
+        <hr/>
+        <br/>
+        <hr/>
+        <!-- Completed Shopping Carts -->
+        <h3>Completed Shopping Carts</h3>
+        {% for cart in completed_carts %}
+        <h4>Order #{{ cart.id }}</h4>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Product</th>
+              <th>Price</th>
+              <th>Quantity</th>
+              <th>Amount</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for order in cart.orders.all %}
+            <tr>
+              <td>{{ order.id }}</td>
+              <td>{{ order.product }}</td>
+              <td>${{ order.price }}</td>
+              <td>{{ order.onOrderQty }}</td>
+              <td>${{ order.amount }}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+        {% endfor %}
+        <hr/>
+        <br/>
+        <hr/>
+
+        {% comment %} products inquiry {% endcomment %}
+        {% if takeOrders %}
+        <p>Here are the product lists that you have keep it about :</p>
+        <table class="table">
+          <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">product</th>
+                <th scope="col">price</th>
+                <th scope="col">Qty</th>
+                <th scorp="col">confirm order</th>
+                <th></th>
+              </tr>
+          </thead>
+          <tbody>
+              {% for takeOrder in takeOrders %}
+              <tr>
+                <td>{{takeOrder.id}}</td>
+                <td>{{takeOrder.product}}</td>
+                <td>${{takeOrder.price}}</td> 
+                <td>{{takeOrder.onOrderQty}}</td>
+                <td>{% if takeOrder.ordered %}Yes{% else %}No{% endif %}</td> 
+                <td><a class="btn btn-info" href="{% url 'product' takeOrder.product_id %}">Product Detail Info</a>
+                  {% if not takeOrder.ordered %}
+                  <a class="btn btn-danger" href="{% url 'delete_takeOrder' takeOrder.id %}">Delete Target</a>
+                  {% else %}
+                  {% endif %}
+
+                </td>
+              </tr>
+              {% endfor %}                      
+            </tbody>
+        </table>
+        {% else %}
+        <p>You had no take notice any product!</p>
+        {% endif %}
+        <hr/>
+        <br/>
+        <hr/>
+        {% comment %} shipping status {% endcomment %}
+        <a href="{% url 'shoppingCartOrders' %}" class="btn btn-primary mb-4">View Shopping Cart</a>
+        {% comment %} {% if shoppingCartOrders %}
+        <p>Here are the shipment lists fro your Order :</p>
+        <a href="{% url 'shoppingCartOrders' %}" class="btn btn-primary mb-4">View Shopping Cart</a>
+               {% else %}
+        <p>You had no take notice any product!</p>
+        {% endif %} {% endcomment %}
+        <hr/>
+        <br/>
+        <hr/>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock %}
