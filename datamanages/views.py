@@ -73,29 +73,27 @@ def datamanages(request):
             St_company.objects.create(code=code,name=name)
 
 
-        for _, row in df.iterrows():
-            try:
-            # Validate required fields
-                if pd.isna(row['code']) or pd.isna(row['date']) or pd.isna(row['price']) or pd.isna(row['qty']):
-                    messages.warning(request, f"Skipping row with missing data: {row}")
-                    continue
+        # for row in df.iterrows():
+        #     try:
+        #     # Validate required fields
+        #         if pd.isna(row['date']):
+        #             messages.warning(request, f"Skipping row with missing data: {row}")
+        #             continue
 
-                # Get or create the company
-                company_instance, _ = St_company.objects.get_or_create(code=row['code'], defaults={'name': row.get('name', 'Unknown')})
-
-                # Create and save the stock data
-                St_data.objects.create(code=company_instance,  # Use the St_company instance
-                date=row['date'],
-                price=row['price'],
-                qty=row['qty']
-                )
-            except Exception as e:
-                print(f"Error: {e}")  # Debug: Print the error
-                messages.error(request, f"Error saving data: {str(e)}")
-                continue
-            # for row in df.iterrows():
-            #     if not st_datas:
-            #         st_datas = St_data.objects.create(  code=company, date=row['date'], price=row['price'], qty=row['qty'])
+        #         # Create and save the stock data
+        #         St_data.objects.create(
+        #         code = code,
+        #         date=row['date'],
+        #         price=row['price'],
+        #         qty=row['qty']
+        #         )
+        #     except Exception as e:
+        #         print(f"Error: {e}")  # Debug: Print the error
+        #         messages.error(request, f"Error saving data: {str(e)}")
+        #         continue
+        for row in df.iterrows():
+            if not st_datas:
+                st_datas = St_data.objects.create(code=company, date=row['date'], price=row['price'], qty=row['qty'])
 
 
         # Retrieve all data to display in the template

@@ -4,42 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--meta http-equiv="X-UA-Compatible" content="ie=edge" /-->
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    {% comment %} <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"> {% endcomment %}
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <!--Custom Style CSS-->
     <link rel="stylesheet" href="{% static 'css/base_style.css' %}" />
     <!--Font Awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!--index Custom CSS-->
-    <link rel="stylesheet" href="{% static "css/index.css" %}">
-    <!--About Custom CSS-->
-    <link rel="stylesheet" href="{% static "css/about.css" %}">
-    <!--team Custom CSS-->
-    <link rel="stylesheet" href="{% static "css/team.css" %}">
-    <!--team info Custom CSS-->
-    <link rel="stylesheet" href="{% static "css/teaminfo.css" %}">
-    <!--Support & Resources Custom CSS-->
-    <!--link rel="stylesheet" href="{% static "css/supportresources.css" %}"-->
-    <!--Register Custom CSS-->
-    <link rel="stylesheet" href="{% static "css/register.css" %}">
+    <link rel="stylesheet" href="{% static 'css/index.cs' %}">
+    {% comment %} <!--Register Custom CSS-->
+    <link rel="stylesheet" href="{% static 'css/register.css' %}">
     <!--Login Custom CSS-->
-    <link rel="stylesheet" href="{% static "css/login.css" %}">
-    <!--Shortcut Icon-->
+    <link rel="stylesheet" href="{% static 'css/login.css' %}">
+    <!--Shortcut Icon--> {% endcomment %}
     <link rel="shortcut icon" href="{% static 'img/f4icon,ico' %}" sizes="16x16" type="image/x-icon"/>
     
-	<!--link rel="stylesheet" href="{% static 'css/custom-bs.css' %}"-->
-        <!--link rel="stylesheet" href="{% static 'css/jquery.fancybox.min.css' %}"-->
-        <!--link rel="stylesheet" href="{% static 'css/bootstrap-select.min.css' %}"-->
-    <link rel="stylesheet" href="{% static 'fonts/icomoon/style.css' %}">
+	<link rel="stylesheet" href="{% static 'fonts/icomoon/style.css' %}">
     <link rel="stylesheet" href="{% static 'fonts/line-icons/style.css' %}">
-        <!--link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}"-->
-        <!--link rel="stylesheet" href="{% static 'css/animate.min.css' %}"-->
-       
-   
-    <!--link href="assets/vendor/aos/aos.css" rel="stylesheet"-->
-    <!--link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet"-->
-    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">-->
     <style>
         .no-underline {
           text-decoration: none;
@@ -48,30 +30,14 @@
           text-decoration: none;
         }
       </style>
-    <title>Welcome to ITTC</title>
+    <title>Welcome to F4FC</title>
     <!-- Lightbox CSS by wc -->
     <link rel="stylesheet" href="{% static 'css/lightbox.min.css' %}" />
-    <link rel="stylesheet" href="{% static "css/timeline.css" %}">
+    <!--link rel="stylesheet" href="{% static 'css/timeline.css' %}"-->
 </head>
 <body>
     <!--Navbar-->
     {% include "partials/_navbar.html" %}
-  <!-- Shopping Cart Sidebar -->
-  {% comment %} {% if shopping_cart and shopping_cart.orders.all %}
-  <aside class="shopping-cart-sidebar">
-      <h3>Your Shopping Cart</h3>
-      <ul>
-          {% for order in shopping_cart.orders.all %}
-          <li>
-              {{ order.product.no }} - {{ order.product.title }} (Qty: {{ order.onOrderQty }})
-              <span>${{ order.amount }}</span>
-          </li>
-          {% endfor %}
-      </ul>
-      <p>Total: ${{ shopping_cart.total_Amount }}</p>
-      <a href="{% url 'shoppingCartOrders' %}" class="btn btn-primary">View Cart</a>
-  </aside>
-  {% endif %} {% endcomment %}
     <!--Shopping Cart-->
     {% block shoppingCart %}{% endblock %}
     <!--Content-->
@@ -80,7 +46,6 @@
     <!--partials/_footer.html-->
     {% include "partials/_footer.html" %}
 
-</body>
     <!-- JavaScript -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script 
@@ -90,17 +55,17 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
     integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
     crossorigin="anonymous"></script>
-    <script
+    {% comment %} <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
     integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
-    crossorigin="anonymous"></script>
+    crossorigin="anonymous"></script> {% endcomment %}
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!--Register Custom JS-->
-    <script src="{% static "js/register.js" %}"></script>
-    <!--Login Custom JS-->
-    <script src="{% static "js/login.js" %}"></script>
+    <script src="{% static 'js/register.js' %}"></script>
+    {% comment %}     <!--Login Custom JS-->
+    <script src="{% static 'js/login.js' %}"></script>
     <!--script src="{% static "js/register.js" %}"></script-->
-    <!--Lightbox.min.js by wc-->
+    <!--Lightbox.min.js by wc--> {% endcomment %}
     <script src="{% static 'js/lightbox.min.js' %}"></script>
 
     <script>
@@ -125,6 +90,5 @@
     </script>
     <!--Lightbox.min.js by wc-->
     <script src="{% static 'js/lightbox.min.js' %}"></script> 
-
 </body>
 </html>
