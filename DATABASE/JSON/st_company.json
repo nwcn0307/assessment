@@ -1,0 +1,10 @@
+[
+{
+    "model": "datamanages.st_company",
+    "pk": 4,
+    "fields": {
+        "code": "0001",
+        "name": "hk0001.xlsx"
+    }
+}
+]

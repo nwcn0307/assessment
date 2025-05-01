@@ -2,18 +2,20 @@
 {% load i18n admin_urls %}
 
 {% block object-tools-items %}
-{{block.super}}
+{{ block.super }}
     <li>
-        <!--a href="{% url 'export_data' %}" class="addlink btn btn-info" > 
-            Export Data
-        </a-->
         <a href="{% url 'export_data' %}?app_label={{ opts.app_label }}&model_name={{ opts.model_name }}" class="addlink btn btn-info">
             Export Data
         </a>
     </li>
     <li>
-        <a href="{% url 'import_data' %}" class="addlink btn btn-info" >
-            import Data
+        <a href="{% url 'import_data' %}" class="addlink btn btn-info">
+            Import Data
         </a>
     </li>
-{% endblock %} 
+    <li>
+        <a href="{% url 'clear_data' %}?app_label={{ opts.app_label }}" class="addlink btn btn-info">
+            Clear Data
+        </a>
+    </li>
+{% endblock %}

@@ -1,0 +1,4902 @@
+[
+{
+    "model": "datamanages.st_data",
+    "pk": 2543,
+    "fields": {
+        "code": 4,
+        "date": "2023-03-13",
+        "price": "48.75",
+        "qty": 4691559
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2544,
+    "fields": {
+        "code": 4,
+        "date": "2023-03-14",
+        "price": "48.65",
+        "qty": 7700295
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2545,
+    "fields": {
+        "code": 4,
+        "date": "2023-03-15",
+        "price": "49.05",
+        "qty": 4440530
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2546,
+    "fields": {
+        "code": 4,
+        "date": "2023-03-16",
+        "price": "47.90",
+        "qty": 4675206
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2547,
+    "fields": {
+        "code": 4,
+        "date": "2023-03-17",
+        "price": "48.80",
+        "qty": 15145724
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2548,
+    "fields": {
+        "code": 4,
+        "date": "2023-03-20",
+        "price": "48.75",
+        "qty": 4695121
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2549,
+    "fields": {
+        "code": 4,
+        "date": "2023-03-21",
+        "price": "48.15",
+        "qty": 4995999
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2550,
+    "fields": {
+        "code": 4,
+        "date": "2023-03-22",
+        "price": "49.15",
+        "qty": 4030736
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2551,
+    "fields": {
+        "code": 4,
+        "date": "2023-03-23",
+        "price": "48.65",
+        "qty": 5901354
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2552,
+    "fields": {
+        "code": 4,
+        "date": "2023-03-24",
+        "price": "48.50",
+        "qty": 3224108
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2553,
+    "fields": {
+        "code": 4,
+        "date": "2023-03-27",
+        "price": "48.55",
+        "qty": 2866429
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2554,
+    "fields": {
+        "code": 4,
+        "date": "2023-03-28",
+        "price": "48.90",
+        "qty": 2835264
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2555,
+    "fields": {
+        "code": 4,
+        "date": "2023-03-29",
+        "price": "48.70",
+        "qty": 4529231
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2556,
+    "fields": {
+        "code": 4,
+        "date": "2023-03-30",
+        "price": "48.60",
+        "qty": 3743683
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2557,
+    "fields": {
+        "code": 4,
+        "date": "2023-03-31",
+        "price": "48.70",
+        "qty": 6673808
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2558,
+    "fields": {
+        "code": 4,
+        "date": "2023-04-03",
+        "price": "49.00",
+        "qty": 4709769
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2559,
+    "fields": {
+        "code": 4,
+        "date": "2023-04-04",
+        "price": "49.65",
+        "qty": 3375576
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2560,
+    "fields": {
+        "code": 4,
+        "date": "2023-04-06",
+        "price": "49.95",
+        "qty": 4476003
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2561,
+    "fields": {
+        "code": 4,
+        "date": "2023-04-11",
+        "price": "50.30",
+        "qty": 3719247
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2562,
+    "fields": {
+        "code": 4,
+        "date": "2023-04-12",
+        "price": "51.10",
+        "qty": 5841923
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2563,
+    "fields": {
+        "code": 4,
+        "date": "2023-04-13",
+        "price": "51.05",
+        "qty": 3886322
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2564,
+    "fields": {
+        "code": 4,
+        "date": "2023-04-14",
+        "price": "51.05",
+        "qty": 4752583
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2565,
+    "fields": {
+        "code": 4,
+        "date": "2023-04-17",
+        "price": "51.00",
+        "qty": 5828874
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2566,
+    "fields": {
+        "code": 4,
+        "date": "2023-04-18",
+        "price": "50.75",
+        "qty": 3236407
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2567,
+    "fields": {
+        "code": 4,
+        "date": "2023-04-19",
+        "price": "50.65",
+        "qty": 3839075
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2568,
+    "fields": {
+        "code": 4,
+        "date": "2023-04-20",
+        "price": "51.00",
+        "qty": 4299788
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2569,
+    "fields": {
+        "code": 4,
+        "date": "2023-04-21",
+        "price": "51.85",
+        "qty": 7366079
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2570,
+    "fields": {
+        "code": 4,
+        "date": "2023-04-24",
+        "price": "51.00",
+        "qty": 5556132
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2571,
+    "fields": {
+        "code": 4,
+        "date": "2023-04-25",
+        "price": "50.90",
+        "qty": 4195219
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2572,
+    "fields": {
+        "code": 4,
+        "date": "2023-04-26",
+        "price": "51.45",
+        "qty": 4868220
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2573,
+    "fields": {
+        "code": 4,
+        "date": "2023-04-27",
+        "price": "52.10",
+        "qty": 4304126
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2574,
+    "fields": {
+        "code": 4,
+        "date": "2023-04-28",
+        "price": "52.50",
+        "qty": 7725799
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2575,
+    "fields": {
+        "code": 4,
+        "date": "2023-05-02",
+        "price": "52.95",
+        "qty": 3952492
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2576,
+    "fields": {
+        "code": 4,
+        "date": "2023-05-03",
+        "price": "52.65",
+        "qty": 3488056
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2577,
+    "fields": {
+        "code": 4,
+        "date": "2023-05-04",
+        "price": "54.45",
+        "qty": 7435821
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2578,
+    "fields": {
+        "code": 4,
+        "date": "2023-05-05",
+        "price": "53.70",
+        "qty": 3718551
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2579,
+    "fields": {
+        "code": 4,
+        "date": "2023-05-08",
+        "price": "53.80",
+        "qty": 3083937
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2580,
+    "fields": {
+        "code": 4,
+        "date": "2023-05-09",
+        "price": "53.15",
+        "qty": 5708345
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2581,
+    "fields": {
+        "code": 4,
+        "date": "2023-05-10",
+        "price": "52.95",
+        "qty": 4378793
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2582,
+    "fields": {
+        "code": 4,
+        "date": "2023-05-11",
+        "price": "53.00",
+        "qty": 3867218
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2583,
+    "fields": {
+        "code": 4,
+        "date": "2023-05-12",
+        "price": "51.80",
+        "qty": 4762658
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2584,
+    "fields": {
+        "code": 4,
+        "date": "2023-05-15",
+        "price": "52.35",
+        "qty": 3149643
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2585,
+    "fields": {
+        "code": 4,
+        "date": "2023-05-16",
+        "price": "51.50",
+        "qty": 4059727
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2586,
+    "fields": {
+        "code": 4,
+        "date": "2023-05-17",
+        "price": "51.05",
+        "qty": 4831300
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2587,
+    "fields": {
+        "code": 4,
+        "date": "2023-05-18",
+        "price": "51.05",
+        "qty": 4528614
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2588,
+    "fields": {
+        "code": 4,
+        "date": "2023-05-19",
+        "price": "51.10",
+        "qty": 2920489
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2589,
+    "fields": {
+        "code": 4,
+        "date": "2023-05-22",
+        "price": "51.00",
+        "qty": 5785995
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2590,
+    "fields": {
+        "code": 4,
+        "date": "2023-05-23",
+        "price": "48.35",
+        "qty": 3395140
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2591,
+    "fields": {
+        "code": 4,
+        "date": "2023-05-24",
+        "price": "48.95",
+        "qty": 5940585
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2592,
+    "fields": {
+        "code": 4,
+        "date": "2023-05-25",
+        "price": "48.45",
+        "qty": 3280379
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2593,
+    "fields": {
+        "code": 4,
+        "date": "2023-05-29",
+        "price": "48.10",
+        "qty": 4554711
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2594,
+    "fields": {
+        "code": 4,
+        "date": "2023-05-30",
+        "price": "48.10",
+        "qty": 3111581
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2595,
+    "fields": {
+        "code": 4,
+        "date": "2023-05-31",
+        "price": "47.35",
+        "qty": 12209519
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2596,
+    "fields": {
+        "code": 4,
+        "date": "2023-06-01",
+        "price": "46.65",
+        "qty": 6086134
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2597,
+    "fields": {
+        "code": 4,
+        "date": "2023-06-02",
+        "price": "47.65",
+        "qty": 4388091
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2598,
+    "fields": {
+        "code": 4,
+        "date": "2023-06-05",
+        "price": "48.30",
+        "qty": 3931894
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2599,
+    "fields": {
+        "code": 4,
+        "date": "2023-06-06",
+        "price": "48.40",
+        "qty": 2280890
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2600,
+    "fields": {
+        "code": 4,
+        "date": "2023-06-07",
+        "price": "48.15",
+        "qty": 2941782
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2601,
+    "fields": {
+        "code": 4,
+        "date": "2023-06-08",
+        "price": "48.85",
+        "qty": 2266729
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2602,
+    "fields": {
+        "code": 4,
+        "date": "2023-06-09",
+        "price": "49.30",
+        "qty": 3375450
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2603,
+    "fields": {
+        "code": 4,
+        "date": "2023-06-12",
+        "price": "49.55",
+        "qty": 2287917
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2604,
+    "fields": {
+        "code": 4,
+        "date": "2023-06-13",
+        "price": "49.10",
+        "qty": 3621734
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2605,
+    "fields": {
+        "code": 4,
+        "date": "2023-06-14",
+        "price": "48.85",
+        "qty": 2831041
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2606,
+    "fields": {
+        "code": 4,
+        "date": "2023-06-15",
+        "price": "48.95",
+        "qty": 5423907
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2607,
+    "fields": {
+        "code": 4,
+        "date": "2023-06-16",
+        "price": "49.25",
+        "qty": 6290801
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2608,
+    "fields": {
+        "code": 4,
+        "date": "2023-06-19",
+        "price": "49.30",
+        "qty": 2669283
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2609,
+    "fields": {
+        "code": 4,
+        "date": "2023-06-20",
+        "price": "49.15",
+        "qty": 3682403
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2610,
+    "fields": {
+        "code": 4,
+        "date": "2023-06-21",
+        "price": "48.50",
+        "qty": 3971856
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2611,
+    "fields": {
+        "code": 4,
+        "date": "2023-06-23",
+        "price": "48.15",
+        "qty": 3625259
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2612,
+    "fields": {
+        "code": 4,
+        "date": "2023-06-26",
+        "price": "47.95",
+        "qty": 3084511
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2613,
+    "fields": {
+        "code": 4,
+        "date": "2023-06-27",
+        "price": "48.55",
+        "qty": 3681533
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2614,
+    "fields": {
+        "code": 4,
+        "date": "2023-06-28",
+        "price": "48.70",
+        "qty": 2975441
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2615,
+    "fields": {
+        "code": 4,
+        "date": "2023-06-29",
+        "price": "47.55",
+        "qty": 6057043
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2616,
+    "fields": {
+        "code": 4,
+        "date": "2023-06-30",
+        "price": "47.85",
+        "qty": 3737128
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2617,
+    "fields": {
+        "code": 4,
+        "date": "2023-07-03",
+        "price": "48.15",
+        "qty": 4235861
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2618,
+    "fields": {
+        "code": 4,
+        "date": "2023-07-04",
+        "price": "47.95",
+        "qty": 2335573
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2619,
+    "fields": {
+        "code": 4,
+        "date": "2023-07-05",
+        "price": "47.60",
+        "qty": 2794309
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2620,
+    "fields": {
+        "code": 4,
+        "date": "2023-07-06",
+        "price": "46.25",
+        "qty": 6691595
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2621,
+    "fields": {
+        "code": 4,
+        "date": "2023-07-07",
+        "price": "46.00",
+        "qty": 4757294
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2622,
+    "fields": {
+        "code": 4,
+        "date": "2023-07-10",
+        "price": "46.10",
+        "qty": 3618920
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2623,
+    "fields": {
+        "code": 4,
+        "date": "2023-07-11",
+        "price": "46.85",
+        "qty": 4989113
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2624,
+    "fields": {
+        "code": 4,
+        "date": "2023-07-12",
+        "price": "46.80",
+        "qty": 3975291
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2625,
+    "fields": {
+        "code": 4,
+        "date": "2023-07-13",
+        "price": "47.45",
+        "qty": 3423534
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2626,
+    "fields": {
+        "code": 4,
+        "date": "2023-07-14",
+        "price": "47.70",
+        "qty": 4732271
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2627,
+    "fields": {
+        "code": 4,
+        "date": "2023-07-18",
+        "price": "47.20",
+        "qty": 3727413
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2628,
+    "fields": {
+        "code": 4,
+        "date": "2023-07-19",
+        "price": "47.00",
+        "qty": 3908414
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2629,
+    "fields": {
+        "code": 4,
+        "date": "2023-07-20",
+        "price": "47.20",
+        "qty": 3248016
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2630,
+    "fields": {
+        "code": 4,
+        "date": "2023-07-21",
+        "price": "47.55",
+        "qty": 3145499
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2631,
+    "fields": {
+        "code": 4,
+        "date": "2023-07-24",
+        "price": "47.20",
+        "qty": 3594141
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2632,
+    "fields": {
+        "code": 4,
+        "date": "2023-07-25",
+        "price": "47.80",
+        "qty": 4336735
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2633,
+    "fields": {
+        "code": 4,
+        "date": "2023-07-26",
+        "price": "47.85",
+        "qty": 2453572
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2634,
+    "fields": {
+        "code": 4,
+        "date": "2023-07-27",
+        "price": "48.55",
+        "qty": 2553388
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2635,
+    "fields": {
+        "code": 4,
+        "date": "2023-07-28",
+        "price": "48.45",
+        "qty": 4148711
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2636,
+    "fields": {
+        "code": 4,
+        "date": "2023-07-31",
+        "price": "48.10",
+        "qty": 5311060
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2637,
+    "fields": {
+        "code": 4,
+        "date": "2023-08-01",
+        "price": "47.85",
+        "qty": 3586171
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2638,
+    "fields": {
+        "code": 4,
+        "date": "2023-08-02",
+        "price": "46.95",
+        "qty": 4317619
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2639,
+    "fields": {
+        "code": 4,
+        "date": "2023-08-03",
+        "price": "46.30",
+        "qty": 5947109
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2640,
+    "fields": {
+        "code": 4,
+        "date": "2023-08-04",
+        "price": "44.15",
+        "qty": 19723014
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2641,
+    "fields": {
+        "code": 4,
+        "date": "2023-08-07",
+        "price": "44.30",
+        "qty": 5942437
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2642,
+    "fields": {
+        "code": 4,
+        "date": "2023-08-08",
+        "price": "43.40",
+        "qty": 7657581
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2643,
+    "fields": {
+        "code": 4,
+        "date": "2023-08-09",
+        "price": "43.20",
+        "qty": 5365395
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2644,
+    "fields": {
+        "code": 4,
+        "date": "2023-08-10",
+        "price": "43.25",
+        "qty": 5780607
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2645,
+    "fields": {
+        "code": 4,
+        "date": "2023-08-11",
+        "price": "43.05",
+        "qty": 5590669
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2646,
+    "fields": {
+        "code": 4,
+        "date": "2023-08-14",
+        "price": "42.60",
+        "qty": 5834436
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2647,
+    "fields": {
+        "code": 4,
+        "date": "2023-08-15",
+        "price": "42.50",
+        "qty": 4507598
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2648,
+    "fields": {
+        "code": 4,
+        "date": "2023-08-16",
+        "price": "42.00",
+        "qty": 7829413
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2649,
+    "fields": {
+        "code": 4,
+        "date": "2023-08-17",
+        "price": "41.70",
+        "qty": 4941155
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2650,
+    "fields": {
+        "code": 4,
+        "date": "2023-08-18",
+        "price": "41.15",
+        "qty": 5281912
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2651,
+    "fields": {
+        "code": 4,
+        "date": "2023-08-21",
+        "price": "40.55",
+        "qty": 7117589
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2652,
+    "fields": {
+        "code": 4,
+        "date": "2023-08-22",
+        "price": "41.00",
+        "qty": 5439346
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2653,
+    "fields": {
+        "code": 4,
+        "date": "2023-08-23",
+        "price": "41.05",
+        "qty": 2618712
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2654,
+    "fields": {
+        "code": 4,
+        "date": "2023-08-24",
+        "price": "41.50",
+        "qty": 4038261
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2655,
+    "fields": {
+        "code": 4,
+        "date": "2023-08-25",
+        "price": "41.05",
+        "qty": 3562390
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2656,
+    "fields": {
+        "code": 4,
+        "date": "2023-08-28",
+        "price": "41.35",
+        "qty": 3037191
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2657,
+    "fields": {
+        "code": 4,
+        "date": "2023-08-29",
+        "price": "42.25",
+        "qty": 4640152
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2658,
+    "fields": {
+        "code": 4,
+        "date": "2023-08-30",
+        "price": "42.40",
+        "qty": 5330607
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2659,
+    "fields": {
+        "code": 4,
+        "date": "2023-08-31",
+        "price": "42.75",
+        "qty": 6407927
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2660,
+    "fields": {
+        "code": 4,
+        "date": "2023-09-04",
+        "price": "41.95",
+        "qty": 6804713
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2661,
+    "fields": {
+        "code": 4,
+        "date": "2023-09-05",
+        "price": "41.60",
+        "qty": 4088623
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2662,
+    "fields": {
+        "code": 4,
+        "date": "2023-09-06",
+        "price": "41.80",
+        "qty": 4731428
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2663,
+    "fields": {
+        "code": 4,
+        "date": "2023-09-07",
+        "price": "41.35",
+        "qty": 3269755
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2664,
+    "fields": {
+        "code": 4,
+        "date": "2023-09-11",
+        "price": "41.55",
+        "qty": 4125807
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2665,
+    "fields": {
+        "code": 4,
+        "date": "2023-09-12",
+        "price": "41.20",
+        "qty": 2328888
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2666,
+    "fields": {
+        "code": 4,
+        "date": "2023-09-13",
+        "price": "41.20",
+        "qty": 5906678
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2667,
+    "fields": {
+        "code": 4,
+        "date": "2023-09-14",
+        "price": "41.50",
+        "qty": 4282586
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2668,
+    "fields": {
+        "code": 4,
+        "date": "2023-09-15",
+        "price": "41.95",
+        "qty": 7963685
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2669,
+    "fields": {
+        "code": 4,
+        "date": "2023-09-18",
+        "price": "41.35",
+        "qty": 2452774
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2670,
+    "fields": {
+        "code": 4,
+        "date": "2023-09-19",
+        "price": "41.45",
+        "qty": 2980610
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2671,
+    "fields": {
+        "code": 4,
+        "date": "2023-09-20",
+        "price": "41.55",
+        "qty": 4168279
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2672,
+    "fields": {
+        "code": 4,
+        "date": "2023-09-21",
+        "price": "41.15",
+        "qty": 3442255
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2673,
+    "fields": {
+        "code": 4,
+        "date": "2023-09-22",
+        "price": "41.90",
+        "qty": 4968535
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2674,
+    "fields": {
+        "code": 4,
+        "date": "2023-09-25",
+        "price": "41.30",
+        "qty": 2919253
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2675,
+    "fields": {
+        "code": 4,
+        "date": "2023-09-26",
+        "price": "40.85",
+        "qty": 4188987
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2676,
+    "fields": {
+        "code": 4,
+        "date": "2023-09-27",
+        "price": "41.50",
+        "qty": 4296417
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2677,
+    "fields": {
+        "code": 4,
+        "date": "2023-09-28",
+        "price": "40.75",
+        "qty": 4431557
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2678,
+    "fields": {
+        "code": 4,
+        "date": "2023-09-29",
+        "price": "41.90",
+        "qty": 5146569
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2679,
+    "fields": {
+        "code": 4,
+        "date": "2023-10-03",
+        "price": "40.35",
+        "qty": 5570277
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2680,
+    "fields": {
+        "code": 4,
+        "date": "2023-10-04",
+        "price": "40.30",
+        "qty": 4066476
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2681,
+    "fields": {
+        "code": 4,
+        "date": "2023-10-05",
+        "price": "40.50",
+        "qty": 2585030
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2682,
+    "fields": {
+        "code": 4,
+        "date": "2023-10-06",
+        "price": "40.95",
+        "qty": 2529757
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2683,
+    "fields": {
+        "code": 4,
+        "date": "2023-10-09",
+        "price": "40.80",
+        "qty": 1466782
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2684,
+    "fields": {
+        "code": 4,
+        "date": "2023-10-10",
+        "price": "41.05",
+        "qty": 2001603
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2685,
+    "fields": {
+        "code": 4,
+        "date": "2023-10-11",
+        "price": "41.25",
+        "qty": 3890537
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2686,
+    "fields": {
+        "code": 4,
+        "date": "2023-10-12",
+        "price": "41.70",
+        "qty": 3019569
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2687,
+    "fields": {
+        "code": 4,
+        "date": "2023-10-13",
+        "price": "40.80",
+        "qty": 3940089
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2688,
+    "fields": {
+        "code": 4,
+        "date": "2023-10-16",
+        "price": "40.55",
+        "qty": 2133164
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2689,
+    "fields": {
+        "code": 4,
+        "date": "2023-10-17",
+        "price": "40.75",
+        "qty": 3305807
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2690,
+    "fields": {
+        "code": 4,
+        "date": "2023-10-18",
+        "price": "40.90",
+        "qty": 2217426
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2691,
+    "fields": {
+        "code": 4,
+        "date": "2023-10-19",
+        "price": "39.90",
+        "qty": 3001708
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2692,
+    "fields": {
+        "code": 4,
+        "date": "2023-10-20",
+        "price": "39.70",
+        "qty": 5228563
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2693,
+    "fields": {
+        "code": 4,
+        "date": "2023-10-24",
+        "price": "39.30",
+        "qty": 4664668
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2694,
+    "fields": {
+        "code": 4,
+        "date": "2023-10-25",
+        "price": "39.25",
+        "qty": 4467105
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2695,
+    "fields": {
+        "code": 4,
+        "date": "2023-10-26",
+        "price": "38.90",
+        "qty": 6598152
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2696,
+    "fields": {
+        "code": 4,
+        "date": "2023-10-27",
+        "price": "39.65",
+        "qty": 3626479
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2697,
+    "fields": {
+        "code": 4,
+        "date": "2023-10-30",
+        "price": "39.85",
+        "qty": 2628821
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2698,
+    "fields": {
+        "code": 4,
+        "date": "2023-10-31",
+        "price": "39.55",
+        "qty": 4675179
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2699,
+    "fields": {
+        "code": 4,
+        "date": "2023-11-01",
+        "price": "39.55",
+        "qty": 2940748
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2700,
+    "fields": {
+        "code": 4,
+        "date": "2023-11-02",
+        "price": "40.30",
+        "qty": 3477770
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2701,
+    "fields": {
+        "code": 4,
+        "date": "2023-11-03",
+        "price": "40.85",
+        "qty": 3547342
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2702,
+    "fields": {
+        "code": 4,
+        "date": "2023-11-06",
+        "price": "41.05",
+        "qty": 3079764
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2703,
+    "fields": {
+        "code": 4,
+        "date": "2023-11-07",
+        "price": "39.50",
+        "qty": 4878863
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2704,
+    "fields": {
+        "code": 4,
+        "date": "2023-11-08",
+        "price": "39.25",
+        "qty": 6531590
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2705,
+    "fields": {
+        "code": 4,
+        "date": "2023-11-09",
+        "price": "39.20",
+        "qty": 3980491
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2706,
+    "fields": {
+        "code": 4,
+        "date": "2023-11-10",
+        "price": "38.80",
+        "qty": 2729010
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2707,
+    "fields": {
+        "code": 4,
+        "date": "2023-11-13",
+        "price": "39.15",
+        "qty": 3284989
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2708,
+    "fields": {
+        "code": 4,
+        "date": "2023-11-14",
+        "price": "39.60",
+        "qty": 4001533
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2709,
+    "fields": {
+        "code": 4,
+        "date": "2023-11-15",
+        "price": "40.85",
+        "qty": 7435220
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2710,
+    "fields": {
+        "code": 4,
+        "date": "2023-11-16",
+        "price": "40.30",
+        "qty": 4413516
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2711,
+    "fields": {
+        "code": 4,
+        "date": "2023-11-17",
+        "price": "40.20",
+        "qty": 4958511
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2712,
+    "fields": {
+        "code": 4,
+        "date": "2023-11-20",
+        "price": "40.55",
+        "qty": 3086044
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2713,
+    "fields": {
+        "code": 4,
+        "date": "2023-11-21",
+        "price": "40.65",
+        "qty": 3618703
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2714,
+    "fields": {
+        "code": 4,
+        "date": "2023-11-22",
+        "price": "40.75",
+        "qty": 2708934
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2715,
+    "fields": {
+        "code": 4,
+        "date": "2023-11-23",
+        "price": "41.05",
+        "qty": 2901344
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2716,
+    "fields": {
+        "code": 4,
+        "date": "2023-11-24",
+        "price": "40.30",
+        "qty": 2258744
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2717,
+    "fields": {
+        "code": 4,
+        "date": "2023-11-27",
+        "price": "40.15",
+        "qty": 3991360
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2718,
+    "fields": {
+        "code": 4,
+        "date": "2023-11-28",
+        "price": "39.85",
+        "qty": 5374100
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2719,
+    "fields": {
+        "code": 4,
+        "date": "2023-11-29",
+        "price": "39.15",
+        "qty": 6262946
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2720,
+    "fields": {
+        "code": 4,
+        "date": "2023-11-30",
+        "price": "39.15",
+        "qty": 9697223
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2721,
+    "fields": {
+        "code": 4,
+        "date": "2023-12-01",
+        "price": "39.60",
+        "qty": 6795002
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2722,
+    "fields": {
+        "code": 4,
+        "date": "2023-12-04",
+        "price": "39.65",
+        "qty": 4689060
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2723,
+    "fields": {
+        "code": 4,
+        "date": "2023-12-05",
+        "price": "39.65",
+        "qty": 4929840
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2724,
+    "fields": {
+        "code": 4,
+        "date": "2023-12-06",
+        "price": "40.20",
+        "qty": 3913328
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2725,
+    "fields": {
+        "code": 4,
+        "date": "2023-12-07",
+        "price": "39.90",
+        "qty": 4782435
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2726,
+    "fields": {
+        "code": 4,
+        "date": "2023-12-08",
+        "price": "40.20",
+        "qty": 5275343
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2727,
+    "fields": {
+        "code": 4,
+        "date": "2023-12-11",
+        "price": "39.45",
+        "qty": 3973078
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2728,
+    "fields": {
+        "code": 4,
+        "date": "2023-12-12",
+        "price": "39.60",
+        "qty": 5383785
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2729,
+    "fields": {
+        "code": 4,
+        "date": "2023-12-13",
+        "price": "39.45",
+        "qty": 3389452
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2730,
+    "fields": {
+        "code": 4,
+        "date": "2023-12-14",
+        "price": "40.05",
+        "qty": 9576558
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2731,
+    "fields": {
+        "code": 4,
+        "date": "2023-12-15",
+        "price": "41.30",
+        "qty": 10736226
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2732,
+    "fields": {
+        "code": 4,
+        "date": "2023-12-18",
+        "price": "41.25",
+        "qty": 4587530
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2733,
+    "fields": {
+        "code": 4,
+        "date": "2023-12-19",
+        "price": "40.95",
+        "qty": 2516416
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2734,
+    "fields": {
+        "code": 4,
+        "date": "2023-12-20",
+        "price": "40.70",
+        "qty": 5578259
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2735,
+    "fields": {
+        "code": 4,
+        "date": "2023-12-21",
+        "price": "40.65",
+        "qty": 3614332
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2736,
+    "fields": {
+        "code": 4,
+        "date": "2023-12-22",
+        "price": "40.90",
+        "qty": 8672294
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2737,
+    "fields": {
+        "code": 4,
+        "date": "2023-12-27",
+        "price": "41.40",
+        "qty": 3490696
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2738,
+    "fields": {
+        "code": 4,
+        "date": "2023-12-28",
+        "price": "41.95",
+        "qty": 4218901
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2739,
+    "fields": {
+        "code": 4,
+        "date": "2023-12-29",
+        "price": "41.85",
+        "qty": 2945007
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2740,
+    "fields": {
+        "code": 4,
+        "date": "2024-01-02",
+        "price": "41.25",
+        "qty": 2782895
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2741,
+    "fields": {
+        "code": 4,
+        "date": "2024-01-03",
+        "price": "41.35",
+        "qty": 3498817
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2742,
+    "fields": {
+        "code": 4,
+        "date": "2024-01-04",
+        "price": "41.00",
+        "qty": 2800255
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2743,
+    "fields": {
+        "code": 4,
+        "date": "2024-01-05",
+        "price": "40.80",
+        "qty": 2731319
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2744,
+    "fields": {
+        "code": 4,
+        "date": "2024-01-08",
+        "price": "40.65",
+        "qty": 3271763
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2745,
+    "fields": {
+        "code": 4,
+        "date": "2024-01-09",
+        "price": "41.05",
+        "qty": 3236814
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2746,
+    "fields": {
+        "code": 4,
+        "date": "2024-01-10",
+        "price": "40.80",
+        "qty": 2636087
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2747,
+    "fields": {
+        "code": 4,
+        "date": "2024-01-11",
+        "price": "40.95",
+        "qty": 3323674
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2748,
+    "fields": {
+        "code": 4,
+        "date": "2024-01-12",
+        "price": "40.65",
+        "qty": 2901998
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2749,
+    "fields": {
+        "code": 4,
+        "date": "2024-01-15",
+        "price": "41.05",
+        "qty": 2280159
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2750,
+    "fields": {
+        "code": 4,
+        "date": "2024-01-16",
+        "price": "40.20",
+        "qty": 3516234
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2751,
+    "fields": {
+        "code": 4,
+        "date": "2024-01-17",
+        "price": "38.60",
+        "qty": 9864844
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2752,
+    "fields": {
+        "code": 4,
+        "date": "2024-01-18",
+        "price": "39.10",
+        "qty": 5674020
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2753,
+    "fields": {
+        "code": 4,
+        "date": "2024-01-19",
+        "price": "38.85",
+        "qty": 4252461
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2754,
+    "fields": {
+        "code": 4,
+        "date": "2024-01-22",
+        "price": "38.15",
+        "qty": 5045299
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2755,
+    "fields": {
+        "code": 4,
+        "date": "2024-01-23",
+        "price": "38.70",
+        "qty": 5355499
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2756,
+    "fields": {
+        "code": 4,
+        "date": "2024-01-24",
+        "price": "39.60",
+        "qty": 6711430
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2757,
+    "fields": {
+        "code": 4,
+        "date": "2024-01-25",
+        "price": "40.20",
+        "qty": 6130296
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2758,
+    "fields": {
+        "code": 4,
+        "date": "2024-01-26",
+        "price": "40.20",
+        "qty": 3719340
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2759,
+    "fields": {
+        "code": 4,
+        "date": "2024-01-29",
+        "price": "41.35",
+        "qty": 6489141
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2760,
+    "fields": {
+        "code": 4,
+        "date": "2024-01-30",
+        "price": "40.60",
+        "qty": 5352638
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2761,
+    "fields": {
+        "code": 4,
+        "date": "2024-01-31",
+        "price": "40.40",
+        "qty": 5551652
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2762,
+    "fields": {
+        "code": 4,
+        "date": "2024-02-01",
+        "price": "40.45",
+        "qty": 2980145
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2763,
+    "fields": {
+        "code": 4,
+        "date": "2024-02-02",
+        "price": "40.65",
+        "qty": 3553665
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2764,
+    "fields": {
+        "code": 4,
+        "date": "2024-02-05",
+        "price": "40.55",
+        "qty": 4096607
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2765,
+    "fields": {
+        "code": 4,
+        "date": "2024-02-06",
+        "price": "41.40",
+        "qty": 6370459
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2766,
+    "fields": {
+        "code": 4,
+        "date": "2024-02-07",
+        "price": "41.65",
+        "qty": 5102272
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2767,
+    "fields": {
+        "code": 4,
+        "date": "2024-02-08",
+        "price": "41.05",
+        "qty": 4613776
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2768,
+    "fields": {
+        "code": 4,
+        "date": "2024-02-09",
+        "price": "40.85",
+        "qty": 2537167
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2769,
+    "fields": {
+        "code": 4,
+        "date": "2024-02-14",
+        "price": "41.15",
+        "qty": 3967567
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2770,
+    "fields": {
+        "code": 4,
+        "date": "2024-02-15",
+        "price": "41.15",
+        "qty": 3009336
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2771,
+    "fields": {
+        "code": 4,
+        "date": "2024-02-16",
+        "price": "42.40",
+        "qty": 8399523
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2772,
+    "fields": {
+        "code": 4,
+        "date": "2024-02-19",
+        "price": "41.70",
+        "qty": 3475773
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2773,
+    "fields": {
+        "code": 4,
+        "date": "2024-02-20",
+        "price": "42.15",
+        "qty": 3211948
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2774,
+    "fields": {
+        "code": 4,
+        "date": "2024-02-21",
+        "price": "42.60",
+        "qty": 10071845
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2775,
+    "fields": {
+        "code": 4,
+        "date": "2024-02-22",
+        "price": "42.60",
+        "qty": 4253901
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2776,
+    "fields": {
+        "code": 4,
+        "date": "2024-02-23",
+        "price": "42.20",
+        "qty": 5481467
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2777,
+    "fields": {
+        "code": 4,
+        "date": "2024-02-26",
+        "price": "41.70",
+        "qty": 4058902
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2778,
+    "fields": {
+        "code": 4,
+        "date": "2024-02-27",
+        "price": "41.05",
+        "qty": 7618336
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2779,
+    "fields": {
+        "code": 4,
+        "date": "2024-02-28",
+        "price": "40.50",
+        "qty": 7230120
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2780,
+    "fields": {
+        "code": 4,
+        "date": "2024-02-29",
+        "price": "39.75",
+        "qty": 11005855
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2781,
+    "fields": {
+        "code": 4,
+        "date": "2024-03-01",
+        "price": "39.50",
+        "qty": 6457452
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2782,
+    "fields": {
+        "code": 4,
+        "date": "2024-03-04",
+        "price": "39.60",
+        "qty": 6173712
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2783,
+    "fields": {
+        "code": 4,
+        "date": "2024-03-05",
+        "price": "39.25",
+        "qty": 6607871
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2784,
+    "fields": {
+        "code": 4,
+        "date": "2024-03-06",
+        "price": "39.80",
+        "qty": 5103620
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2785,
+    "fields": {
+        "code": 4,
+        "date": "2024-03-07",
+        "price": "40.15",
+        "qty": 4694131
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2786,
+    "fields": {
+        "code": 4,
+        "date": "2024-03-08",
+        "price": "40.50",
+        "qty": 6001907
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2787,
+    "fields": {
+        "code": 4,
+        "date": "2024-03-11",
+        "price": "40.85",
+        "qty": 5526549
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2788,
+    "fields": {
+        "code": 4,
+        "date": "2024-03-12",
+        "price": "41.55",
+        "qty": 6077956
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2789,
+    "fields": {
+        "code": 4,
+        "date": "2024-03-13",
+        "price": "41.55",
+        "qty": 4384422
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2790,
+    "fields": {
+        "code": 4,
+        "date": "2024-03-14",
+        "price": "41.60",
+        "qty": 5324345
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2791,
+    "fields": {
+        "code": 4,
+        "date": "2024-03-15",
+        "price": "41.05",
+        "qty": 9105178
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2792,
+    "fields": {
+        "code": 4,
+        "date": "2024-03-18",
+        "price": "40.65",
+        "qty": 5091352
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2793,
+    "fields": {
+        "code": 4,
+        "date": "2024-03-19",
+        "price": "40.40",
+        "qty": 4129836
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2794,
+    "fields": {
+        "code": 4,
+        "date": "2024-03-20",
+        "price": "39.90",
+        "qty": 5054603
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2795,
+    "fields": {
+        "code": 4,
+        "date": "2024-03-21",
+        "price": "40.40",
+        "qty": 7229497
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2796,
+    "fields": {
+        "code": 4,
+        "date": "2024-03-22",
+        "price": "39.35",
+        "qty": 14364623
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2797,
+    "fields": {
+        "code": 4,
+        "date": "2024-03-25",
+        "price": "38.65",
+        "qty": 9016150
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2798,
+    "fields": {
+        "code": 4,
+        "date": "2024-03-26",
+        "price": "38.10",
+        "qty": 10197346
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2799,
+    "fields": {
+        "code": 4,
+        "date": "2024-03-27",
+        "price": "37.70",
+        "qty": 10133642
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2800,
+    "fields": {
+        "code": 4,
+        "date": "2024-03-28",
+        "price": "37.80",
+        "qty": 7827990
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2801,
+    "fields": {
+        "code": 4,
+        "date": "2024-04-02",
+        "price": "39.15",
+        "qty": 8976759
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2802,
+    "fields": {
+        "code": 4,
+        "date": "2024-04-03",
+        "price": "38.90",
+        "qty": 6619947
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2803,
+    "fields": {
+        "code": 4,
+        "date": "2024-04-05",
+        "price": "38.25",
+        "qty": 7577520
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2804,
+    "fields": {
+        "code": 4,
+        "date": "2024-04-08",
+        "price": "38.35",
+        "qty": 6429740
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2805,
+    "fields": {
+        "code": 4,
+        "date": "2024-04-09",
+        "price": "38.35",
+        "qty": 4857551
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2806,
+    "fields": {
+        "code": 4,
+        "date": "2024-04-10",
+        "price": "38.40",
+        "qty": 6973424
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2807,
+    "fields": {
+        "code": 4,
+        "date": "2024-04-11",
+        "price": "37.85",
+        "qty": 6793305
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2808,
+    "fields": {
+        "code": 4,
+        "date": "2024-04-12",
+        "price": "37.25",
+        "qty": 10005131
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2809,
+    "fields": {
+        "code": 4,
+        "date": "2024-04-15",
+        "price": "36.70",
+        "qty": 5727296
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2810,
+    "fields": {
+        "code": 4,
+        "date": "2024-04-16",
+        "price": "35.80",
+        "qty": 8563683
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2811,
+    "fields": {
+        "code": 4,
+        "date": "2024-04-17",
+        "price": "35.60",
+        "qty": 5975767
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2812,
+    "fields": {
+        "code": 4,
+        "date": "2024-04-18",
+        "price": "35.75",
+        "qty": 6452114
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2813,
+    "fields": {
+        "code": 4,
+        "date": "2024-04-19",
+        "price": "35.85",
+        "qty": 5806276
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2814,
+    "fields": {
+        "code": 4,
+        "date": "2024-04-22",
+        "price": "36.60",
+        "qty": 5151447
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2815,
+    "fields": {
+        "code": 4,
+        "date": "2024-04-23",
+        "price": "37.00",
+        "qty": 4499892
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2816,
+    "fields": {
+        "code": 4,
+        "date": "2024-04-24",
+        "price": "37.80",
+        "qty": 6223244
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2817,
+    "fields": {
+        "code": 4,
+        "date": "2024-04-25",
+        "price": "38.20",
+        "qty": 6181488
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2818,
+    "fields": {
+        "code": 4,
+        "date": "2024-04-26",
+        "price": "38.25",
+        "qty": 8216508
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2819,
+    "fields": {
+        "code": 4,
+        "date": "2024-04-29",
+        "price": "38.65",
+        "qty": 8273310
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2820,
+    "fields": {
+        "code": 4,
+        "date": "2024-04-30",
+        "price": "38.25",
+        "qty": 6920310
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2821,
+    "fields": {
+        "code": 4,
+        "date": "2024-05-02",
+        "price": "39.40",
+        "qty": 6559385
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2822,
+    "fields": {
+        "code": 4,
+        "date": "2024-05-03",
+        "price": "39.30",
+        "qty": 5469446
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2823,
+    "fields": {
+        "code": 4,
+        "date": "2024-05-06",
+        "price": "39.20",
+        "qty": 6108176
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2824,
+    "fields": {
+        "code": 4,
+        "date": "2024-05-07",
+        "price": "39.60",
+        "qty": 5061995
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2825,
+    "fields": {
+        "code": 4,
+        "date": "2024-05-08",
+        "price": "39.05",
+        "qty": 6024128
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2826,
+    "fields": {
+        "code": 4,
+        "date": "2024-05-09",
+        "price": "39.60",
+        "qty": 5436024
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2827,
+    "fields": {
+        "code": 4,
+        "date": "2024-05-10",
+        "price": "41.15",
+        "qty": 13358106
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2828,
+    "fields": {
+        "code": 4,
+        "date": "2024-05-13",
+        "price": "41.95",
+        "qty": 7186398
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2829,
+    "fields": {
+        "code": 4,
+        "date": "2024-05-14",
+        "price": "41.45",
+        "qty": 9126910
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2830,
+    "fields": {
+        "code": 4,
+        "date": "2024-05-16",
+        "price": "41.80",
+        "qty": 8831021
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2831,
+    "fields": {
+        "code": 4,
+        "date": "2024-05-17",
+        "price": "42.25",
+        "qty": 6250786
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2832,
+    "fields": {
+        "code": 4,
+        "date": "2024-05-20",
+        "price": "42.45",
+        "qty": 5421359
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2833,
+    "fields": {
+        "code": 4,
+        "date": "2024-05-21",
+        "price": "42.00",
+        "qty": 6763048
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2834,
+    "fields": {
+        "code": 4,
+        "date": "2024-05-22",
+        "price": "42.05",
+        "qty": 4183203
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2835,
+    "fields": {
+        "code": 4,
+        "date": "2024-05-23",
+        "price": "41.60",
+        "qty": 3969145
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2836,
+    "fields": {
+        "code": 4,
+        "date": "2024-05-24",
+        "price": "41.25",
+        "qty": 5482993
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2837,
+    "fields": {
+        "code": 4,
+        "date": "2024-05-27",
+        "price": "41.45",
+        "qty": 4102000
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2838,
+    "fields": {
+        "code": 4,
+        "date": "2024-05-28",
+        "price": "40.00",
+        "qty": 5941043
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2839,
+    "fields": {
+        "code": 4,
+        "date": "2024-05-29",
+        "price": "39.20",
+        "qty": 5875339
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2840,
+    "fields": {
+        "code": 4,
+        "date": "2024-05-30",
+        "price": "38.05",
+        "qty": 8463563
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2841,
+    "fields": {
+        "code": 4,
+        "date": "2024-05-31",
+        "price": "38.10",
+        "qty": 9364509
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2842,
+    "fields": {
+        "code": 4,
+        "date": "2024-06-03",
+        "price": "38.55",
+        "qty": 4002702
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2843,
+    "fields": {
+        "code": 4,
+        "date": "2024-06-04",
+        "price": "38.70",
+        "qty": 5064282
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2844,
+    "fields": {
+        "code": 4,
+        "date": "2024-06-05",
+        "price": "39.20",
+        "qty": 6420862
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2845,
+    "fields": {
+        "code": 4,
+        "date": "2024-06-06",
+        "price": "38.85",
+        "qty": 3486843
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2846,
+    "fields": {
+        "code": 4,
+        "date": "2024-06-07",
+        "price": "38.65",
+        "qty": 4690340
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2847,
+    "fields": {
+        "code": 4,
+        "date": "2024-06-11",
+        "price": "37.95",
+        "qty": 7543740
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2848,
+    "fields": {
+        "code": 4,
+        "date": "2024-06-12",
+        "price": "37.50",
+        "qty": 5598031
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2849,
+    "fields": {
+        "code": 4,
+        "date": "2024-06-13",
+        "price": "37.35",
+        "qty": 4878562
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2850,
+    "fields": {
+        "code": 4,
+        "date": "2024-06-14",
+        "price": "36.85",
+        "qty": 7887589
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2851,
+    "fields": {
+        "code": 4,
+        "date": "2024-06-17",
+        "price": "36.60",
+        "qty": 5120901
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2852,
+    "fields": {
+        "code": 4,
+        "date": "2024-06-18",
+        "price": "37.00",
+        "qty": 6843951
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2853,
+    "fields": {
+        "code": 4,
+        "date": "2024-06-19",
+        "price": "37.70",
+        "qty": 3505285
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2854,
+    "fields": {
+        "code": 4,
+        "date": "2024-06-20",
+        "price": "37.25",
+        "qty": 4108310
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2855,
+    "fields": {
+        "code": 4,
+        "date": "2024-06-21",
+        "price": "36.55",
+        "qty": 8104883
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2856,
+    "fields": {
+        "code": 4,
+        "date": "2024-06-24",
+        "price": "36.75",
+        "qty": 5067313
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2857,
+    "fields": {
+        "code": 4,
+        "date": "2024-06-25",
+        "price": "36.55",
+        "qty": 8436800
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2858,
+    "fields": {
+        "code": 4,
+        "date": "2024-06-26",
+        "price": "37.40",
+        "qty": 8750948
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2859,
+    "fields": {
+        "code": 4,
+        "date": "2024-06-27",
+        "price": "36.85",
+        "qty": 4715506
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2860,
+    "fields": {
+        "code": 4,
+        "date": "2024-06-28",
+        "price": "37.40",
+        "qty": 6285394
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2861,
+    "fields": {
+        "code": 4,
+        "date": "2024-07-02",
+        "price": "38.05",
+        "qty": 9007135
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2862,
+    "fields": {
+        "code": 4,
+        "date": "2024-07-03",
+        "price": "37.95",
+        "qty": 7033559
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2863,
+    "fields": {
+        "code": 4,
+        "date": "2024-07-04",
+        "price": "37.90",
+        "qty": 5886995
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2864,
+    "fields": {
+        "code": 4,
+        "date": "2024-07-05",
+        "price": "37.45",
+        "qty": 5160734
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2865,
+    "fields": {
+        "code": 4,
+        "date": "2024-07-08",
+        "price": "37.10",
+        "qty": 4752010
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2866,
+    "fields": {
+        "code": 4,
+        "date": "2024-07-09",
+        "price": "37.15",
+        "qty": 4648433
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2867,
+    "fields": {
+        "code": 4,
+        "date": "2024-07-10",
+        "price": "36.95",
+        "qty": 5011938
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2868,
+    "fields": {
+        "code": 4,
+        "date": "2024-07-11",
+        "price": "38.70",
+        "qty": 7358913
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2869,
+    "fields": {
+        "code": 4,
+        "date": "2024-07-12",
+        "price": "40.80",
+        "qty": 12222351
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2870,
+    "fields": {
+        "code": 4,
+        "date": "2024-07-15",
+        "price": "40.15",
+        "qty": 6755790
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2871,
+    "fields": {
+        "code": 4,
+        "date": "2024-07-16",
+        "price": "39.95",
+        "qty": 3978223
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2872,
+    "fields": {
+        "code": 4,
+        "date": "2024-07-17",
+        "price": "40.50",
+        "qty": 4151953
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2873,
+    "fields": {
+        "code": 4,
+        "date": "2024-07-18",
+        "price": "40.85",
+        "qty": 5498408
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2874,
+    "fields": {
+        "code": 4,
+        "date": "2024-07-19",
+        "price": "40.90",
+        "qty": 6472800
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2875,
+    "fields": {
+        "code": 4,
+        "date": "2024-07-22",
+        "price": "40.95",
+        "qty": 2799284
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2876,
+    "fields": {
+        "code": 4,
+        "date": "2024-07-23",
+        "price": "41.05",
+        "qty": 5095790
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2877,
+    "fields": {
+        "code": 4,
+        "date": "2024-07-24",
+        "price": "40.95",
+        "qty": 2769758
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2878,
+    "fields": {
+        "code": 4,
+        "date": "2024-07-25",
+        "price": "40.05",
+        "qty": 7128953
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2879,
+    "fields": {
+        "code": 4,
+        "date": "2024-07-26",
+        "price": "40.45",
+        "qty": 2822312
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2880,
+    "fields": {
+        "code": 4,
+        "date": "2024-07-29",
+        "price": "41.45",
+        "qty": 5169955
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2881,
+    "fields": {
+        "code": 4,
+        "date": "2024-07-30",
+        "price": "40.80",
+        "qty": 7477213
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2882,
+    "fields": {
+        "code": 4,
+        "date": "2024-07-31",
+        "price": "41.00",
+        "qty": 5793526
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2883,
+    "fields": {
+        "code": 4,
+        "date": "2024-08-01",
+        "price": "41.20",
+        "qty": 5173665
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2884,
+    "fields": {
+        "code": 4,
+        "date": "2024-08-02",
+        "price": "40.10",
+        "qty": 4908487
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2885,
+    "fields": {
+        "code": 4,
+        "date": "2024-08-05",
+        "price": "39.80",
+        "qty": 6638171
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2886,
+    "fields": {
+        "code": 4,
+        "date": "2024-08-06",
+        "price": "39.30",
+        "qty": 6712302
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2887,
+    "fields": {
+        "code": 4,
+        "date": "2024-08-07",
+        "price": "40.05",
+        "qty": 4383216
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2888,
+    "fields": {
+        "code": 4,
+        "date": "2024-08-08",
+        "price": "39.85",
+        "qty": 3623466
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2889,
+    "fields": {
+        "code": 4,
+        "date": "2024-08-09",
+        "price": "40.35",
+        "qty": 3677533
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2890,
+    "fields": {
+        "code": 4,
+        "date": "2024-08-12",
+        "price": "40.40",
+        "qty": 3291266
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2891,
+    "fields": {
+        "code": 4,
+        "date": "2024-08-13",
+        "price": "40.70",
+        "qty": 4183094
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2892,
+    "fields": {
+        "code": 4,
+        "date": "2024-08-14",
+        "price": "41.30",
+        "qty": 4592719
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2893,
+    "fields": {
+        "code": 4,
+        "date": "2024-08-15",
+        "price": "40.85",
+        "qty": 4368165
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2894,
+    "fields": {
+        "code": 4,
+        "date": "2024-08-16",
+        "price": "39.35",
+        "qty": 18291765
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2895,
+    "fields": {
+        "code": 4,
+        "date": "2024-08-19",
+        "price": "41.15",
+        "qty": 9761895
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2896,
+    "fields": {
+        "code": 4,
+        "date": "2024-08-20",
+        "price": "41.25",
+        "qty": 5287585
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2897,
+    "fields": {
+        "code": 4,
+        "date": "2024-08-21",
+        "price": "40.60",
+        "qty": 5407400
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2898,
+    "fields": {
+        "code": 4,
+        "date": "2024-08-22",
+        "price": "41.45",
+        "qty": 7029823
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2899,
+    "fields": {
+        "code": 4,
+        "date": "2024-08-23",
+        "price": "41.35",
+        "qty": 3661607
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2900,
+    "fields": {
+        "code": 4,
+        "date": "2024-08-26",
+        "price": "42.30",
+        "qty": 7131348
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2901,
+    "fields": {
+        "code": 4,
+        "date": "2024-08-27",
+        "price": "42.95",
+        "qty": 5999117
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2902,
+    "fields": {
+        "code": 4,
+        "date": "2024-08-28",
+        "price": "43.00",
+        "qty": 7855194
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2903,
+    "fields": {
+        "code": 4,
+        "date": "2024-08-29",
+        "price": "43.05",
+        "qty": 5486288
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2904,
+    "fields": {
+        "code": 4,
+        "date": "2024-08-30",
+        "price": "43.05",
+        "qty": 15541043
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2905,
+    "fields": {
+        "code": 4,
+        "date": "2024-09-02",
+        "price": "42.75",
+        "qty": 7022165
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2906,
+    "fields": {
+        "code": 4,
+        "date": "2024-09-03",
+        "price": "42.35",
+        "qty": 3302123
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2907,
+    "fields": {
+        "code": 4,
+        "date": "2024-09-04",
+        "price": "42.00",
+        "qty": 4241733
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2908,
+    "fields": {
+        "code": 4,
+        "date": "2024-09-05",
+        "price": "42.70",
+        "qty": 10407713
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2909,
+    "fields": {
+        "code": 4,
+        "date": "2024-09-09",
+        "price": "42.50",
+        "qty": 11345009
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2910,
+    "fields": {
+        "code": 4,
+        "date": "2024-09-10",
+        "price": "42.00",
+        "qty": 6432564
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2911,
+    "fields": {
+        "code": 4,
+        "date": "2024-09-11",
+        "price": "41.60",
+        "qty": 7061890
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2912,
+    "fields": {
+        "code": 4,
+        "date": "2024-09-12",
+        "price": "41.85",
+        "qty": 5259738
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2913,
+    "fields": {
+        "code": 4,
+        "date": "2024-09-13",
+        "price": "41.55",
+        "qty": 4198176
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2914,
+    "fields": {
+        "code": 4,
+        "date": "2024-09-16",
+        "price": "41.90",
+        "qty": 1890952
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2915,
+    "fields": {
+        "code": 4,
+        "date": "2024-09-17",
+        "price": "42.85",
+        "qty": 8441919
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2916,
+    "fields": {
+        "code": 4,
+        "date": "2024-09-19",
+        "price": "42.90",
+        "qty": 8541801
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2917,
+    "fields": {
+        "code": 4,
+        "date": "2024-09-20",
+        "price": "44.00",
+        "qty": 13262051
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2918,
+    "fields": {
+        "code": 4,
+        "date": "2024-09-23",
+        "price": "43.75",
+        "qty": 5991407
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2919,
+    "fields": {
+        "code": 4,
+        "date": "2024-09-24",
+        "price": "44.05",
+        "qty": 10731089
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2920,
+    "fields": {
+        "code": 4,
+        "date": "2024-09-25",
+        "price": "44.60",
+        "qty": 9300292
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2921,
+    "fields": {
+        "code": 4,
+        "date": "2024-09-26",
+        "price": "44.10",
+        "qty": 15033981
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2922,
+    "fields": {
+        "code": 4,
+        "date": "2024-09-27",
+        "price": "44.85",
+        "qty": 18461846
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2923,
+    "fields": {
+        "code": 4,
+        "date": "2024-09-30",
+        "price": "44.70",
+        "qty": 19063721
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2924,
+    "fields": {
+        "code": 4,
+        "date": "2024-10-02",
+        "price": "45.20",
+        "qty": 14399572
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2925,
+    "fields": {
+        "code": 4,
+        "date": "2024-10-03",
+        "price": "44.85",
+        "qty": 11101599
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2926,
+    "fields": {
+        "code": 4,
+        "date": "2024-10-04",
+        "price": "45.35",
+        "qty": 8507532
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2927,
+    "fields": {
+        "code": 4,
+        "date": "2024-10-07",
+        "price": "45.75",
+        "qty": 7360610
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2928,
+    "fields": {
+        "code": 4,
+        "date": "2024-10-08",
+        "price": "43.60",
+        "qty": 15539824
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2929,
+    "fields": {
+        "code": 4,
+        "date": "2024-10-09",
+        "price": "43.05",
+        "qty": 12489114
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2930,
+    "fields": {
+        "code": 4,
+        "date": "2024-10-10",
+        "price": "43.75",
+        "qty": 9290922
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2931,
+    "fields": {
+        "code": 4,
+        "date": "2024-10-14",
+        "price": "42.95",
+        "qty": 8126971
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2932,
+    "fields": {
+        "code": 4,
+        "date": "2024-10-15",
+        "price": "42.00",
+        "qty": 11843078
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2933,
+    "fields": {
+        "code": 4,
+        "date": "2024-10-16",
+        "price": "41.70",
+        "qty": 7448185
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2934,
+    "fields": {
+        "code": 4,
+        "date": "2024-10-17",
+        "price": "41.35",
+        "qty": 8175256
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2935,
+    "fields": {
+        "code": 4,
+        "date": "2024-10-18",
+        "price": "42.00",
+        "qty": 6515466
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2936,
+    "fields": {
+        "code": 4,
+        "date": "2024-10-21",
+        "price": "41.85",
+        "qty": 5642495
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2937,
+    "fields": {
+        "code": 4,
+        "date": "2024-10-22",
+        "price": "42.00",
+        "qty": 5526527
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2938,
+    "fields": {
+        "code": 4,
+        "date": "2024-10-23",
+        "price": "41.90",
+        "qty": 4215082
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2939,
+    "fields": {
+        "code": 4,
+        "date": "2024-10-24",
+        "price": "41.85",
+        "qty": 4715553
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2940,
+    "fields": {
+        "code": 4,
+        "date": "2024-10-25",
+        "price": "41.75",
+        "qty": 2842850
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2941,
+    "fields": {
+        "code": 4,
+        "date": "2024-10-28",
+        "price": "41.85",
+        "qty": 3559440
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2942,
+    "fields": {
+        "code": 4,
+        "date": "2024-10-29",
+        "price": "41.55",
+        "qty": 5167137
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2943,
+    "fields": {
+        "code": 4,
+        "date": "2024-10-30",
+        "price": "41.20",
+        "qty": 7211338
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2944,
+    "fields": {
+        "code": 4,
+        "date": "2024-10-31",
+        "price": "40.90",
+        "qty": 4675700
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2945,
+    "fields": {
+        "code": 4,
+        "date": "2024-11-01",
+        "price": "41.05",
+        "qty": 2434332
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2946,
+    "fields": {
+        "code": 4,
+        "date": "2024-11-04",
+        "price": "41.15",
+        "qty": 3441957
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2947,
+    "fields": {
+        "code": 4,
+        "date": "2024-11-05",
+        "price": "41.35",
+        "qty": 5007375
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2948,
+    "fields": {
+        "code": 4,
+        "date": "2024-11-06",
+        "price": "41.05",
+        "qty": 7414926
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2949,
+    "fields": {
+        "code": 4,
+        "date": "2024-11-07",
+        "price": "41.35",
+        "qty": 4905298
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2950,
+    "fields": {
+        "code": 4,
+        "date": "2024-11-08",
+        "price": "41.25",
+        "qty": 4823856
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2951,
+    "fields": {
+        "code": 4,
+        "date": "2024-11-11",
+        "price": "40.85",
+        "qty": 4952556
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2952,
+    "fields": {
+        "code": 4,
+        "date": "2024-11-12",
+        "price": "40.30",
+        "qty": 8575488
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2953,
+    "fields": {
+        "code": 4,
+        "date": "2024-11-13",
+        "price": "40.00",
+        "qty": 7067603
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2954,
+    "fields": {
+        "code": 4,
+        "date": "2024-11-14",
+        "price": "39.60",
+        "qty": 6001074
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2955,
+    "fields": {
+        "code": 4,
+        "date": "2024-11-15",
+        "price": "40.25",
+        "qty": 6391399
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2956,
+    "fields": {
+        "code": 4,
+        "date": "2024-11-18",
+        "price": "40.00",
+        "qty": 3960781
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2957,
+    "fields": {
+        "code": 4,
+        "date": "2024-11-19",
+        "price": "40.30",
+        "qty": 3234422
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2958,
+    "fields": {
+        "code": 4,
+        "date": "2024-11-20",
+        "price": "40.25",
+        "qty": 3050161
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2959,
+    "fields": {
+        "code": 4,
+        "date": "2024-11-21",
+        "price": "40.25",
+        "qty": 3019458
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2960,
+    "fields": {
+        "code": 4,
+        "date": "2024-11-22",
+        "price": "39.90",
+        "qty": 4941608
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2961,
+    "fields": {
+        "code": 4,
+        "date": "2024-11-25",
+        "price": "39.80",
+        "qty": 6605052
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2962,
+    "fields": {
+        "code": 4,
+        "date": "2024-11-26",
+        "price": "40.15",
+        "qty": 5652149
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2963,
+    "fields": {
+        "code": 4,
+        "date": "2024-11-27",
+        "price": "40.50",
+        "qty": 3523154
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2964,
+    "fields": {
+        "code": 4,
+        "date": "2024-11-28",
+        "price": "40.20",
+        "qty": 2680842
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2965,
+    "fields": {
+        "code": 4,
+        "date": "2024-11-29",
+        "price": "40.50",
+        "qty": 4950893
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2966,
+    "fields": {
+        "code": 4,
+        "date": "2024-12-02",
+        "price": "40.70",
+        "qty": 3917254
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2967,
+    "fields": {
+        "code": 4,
+        "date": "2024-12-03",
+        "price": "41.60",
+        "qty": 8921160
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2968,
+    "fields": {
+        "code": 4,
+        "date": "2024-12-04",
+        "price": "41.90",
+        "qty": 3747105
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2969,
+    "fields": {
+        "code": 4,
+        "date": "2024-12-05",
+        "price": "42.05",
+        "qty": 3701811
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2970,
+    "fields": {
+        "code": 4,
+        "date": "2024-12-06",
+        "price": "42.35",
+        "qty": 4874738
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2971,
+    "fields": {
+        "code": 4,
+        "date": "2024-12-09",
+        "price": "43.15",
+        "qty": 7752414
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2972,
+    "fields": {
+        "code": 4,
+        "date": "2024-12-10",
+        "price": "42.75",
+        "qty": 8425143
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2973,
+    "fields": {
+        "code": 4,
+        "date": "2024-12-11",
+        "price": "42.60",
+        "qty": 5418079
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2974,
+    "fields": {
+        "code": 4,
+        "date": "2024-12-12",
+        "price": "42.90",
+        "qty": 4556045
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2975,
+    "fields": {
+        "code": 4,
+        "date": "2024-12-13",
+        "price": "42.45",
+        "qty": 3922337
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2976,
+    "fields": {
+        "code": 4,
+        "date": "2024-12-16",
+        "price": "41.55",
+        "qty": 6107028
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2977,
+    "fields": {
+        "code": 4,
+        "date": "2024-12-17",
+        "price": "41.30",
+        "qty": 6694676
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2978,
+    "fields": {
+        "code": 4,
+        "date": "2024-12-18",
+        "price": "41.15",
+        "qty": 6763986
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2979,
+    "fields": {
+        "code": 4,
+        "date": "2024-12-19",
+        "price": "40.85",
+        "qty": 5803098
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2980,
+    "fields": {
+        "code": 4,
+        "date": "2024-12-20",
+        "price": "40.60",
+        "qty": 5380303
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2981,
+    "fields": {
+        "code": 4,
+        "date": "2024-12-23",
+        "price": "41.45",
+        "qty": 4020775
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2982,
+    "fields": {
+        "code": 4,
+        "date": "2024-12-24",
+        "price": "41.65",
+        "qty": 1999516
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2983,
+    "fields": {
+        "code": 4,
+        "date": "2024-12-27",
+        "price": "41.80",
+        "qty": 3075686
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2984,
+    "fields": {
+        "code": 4,
+        "date": "2024-12-30",
+        "price": "41.40",
+        "qty": 3267427
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2985,
+    "fields": {
+        "code": 4,
+        "date": "2024-12-31",
+        "price": "41.50",
+        "qty": 2190255
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2986,
+    "fields": {
+        "code": 4,
+        "date": "2025-01-02",
+        "price": "41.05",
+        "qty": 4164402
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2987,
+    "fields": {
+        "code": 4,
+        "date": "2025-01-03",
+        "price": "41.15",
+        "qty": 2627730
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2988,
+    "fields": {
+        "code": 4,
+        "date": "2025-01-06",
+        "price": "41.30",
+        "qty": 3892729
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2989,
+    "fields": {
+        "code": 4,
+        "date": "2025-01-07",
+        "price": "41.05",
+        "qty": 4598793
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2990,
+    "fields": {
+        "code": 4,
+        "date": "2025-01-08",
+        "price": "40.55",
+        "qty": 5808409
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2991,
+    "fields": {
+        "code": 4,
+        "date": "2025-01-09",
+        "price": "40.50",
+        "qty": 3060041
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2992,
+    "fields": {
+        "code": 4,
+        "date": "2025-01-10",
+        "price": "40.35",
+        "qty": 4607674
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2993,
+    "fields": {
+        "code": 4,
+        "date": "2025-01-13",
+        "price": "39.80",
+        "qty": 4876407
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2994,
+    "fields": {
+        "code": 4,
+        "date": "2025-01-14",
+        "price": "39.80",
+        "qty": 7959404
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2995,
+    "fields": {
+        "code": 4,
+        "date": "2025-01-15",
+        "price": "39.95",
+        "qty": 3820469
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2996,
+    "fields": {
+        "code": 4,
+        "date": "2025-01-16",
+        "price": "39.65",
+        "qty": 5249583
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2997,
+    "fields": {
+        "code": 4,
+        "date": "2025-01-17",
+        "price": "40.20",
+        "qty": 5205136
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2998,
+    "fields": {
+        "code": 4,
+        "date": "2025-01-20",
+        "price": "40.10",
+        "qty": 3781726
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 2999,
+    "fields": {
+        "code": 4,
+        "date": "2025-01-21",
+        "price": "40.00",
+        "qty": 4911349
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 3000,
+    "fields": {
+        "code": 4,
+        "date": "2025-01-22",
+        "price": "40.00",
+        "qty": 4723515
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 3001,
+    "fields": {
+        "code": 4,
+        "date": "2025-01-23",
+        "price": "39.20",
+        "qty": 6318628
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 3002,
+    "fields": {
+        "code": 4,
+        "date": "2025-01-24",
+        "price": "39.25",
+        "qty": 5462191
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 3003,
+    "fields": {
+        "code": 4,
+        "date": "2025-01-27",
+        "price": "39.35",
+        "qty": 3916809
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 3004,
+    "fields": {
+        "code": 4,
+        "date": "2025-01-28",
+        "price": "39.20",
+        "qty": 3526282
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 3005,
+    "fields": {
+        "code": 4,
+        "date": "2025-02-03",
+        "price": "38.90",
+        "qty": 8633008
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 3006,
+    "fields": {
+        "code": 4,
+        "date": "2025-02-04",
+        "price": "39.05",
+        "qty": 7802445
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 3007,
+    "fields": {
+        "code": 4,
+        "date": "2025-02-05",
+        "price": "38.50",
+        "qty": 7737619
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 3008,
+    "fields": {
+        "code": 4,
+        "date": "2025-02-06",
+        "price": "38.95",
+        "qty": 5783386
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 3009,
+    "fields": {
+        "code": 4,
+        "date": "2025-02-07",
+        "price": "39.05",
+        "qty": 6223466
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 3010,
+    "fields": {
+        "code": 4,
+        "date": "2025-02-10",
+        "price": "39.05",
+        "qty": 5516254
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 3011,
+    "fields": {
+        "code": 4,
+        "date": "2025-02-11",
+        "price": "38.85",
+        "qty": 5379071
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 3012,
+    "fields": {
+        "code": 4,
+        "date": "2025-02-12",
+        "price": "39.30",
+        "qty": 7265102
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 3013,
+    "fields": {
+        "code": 4,
+        "date": "2025-02-13",
+        "price": "39.45",
+        "qty": 8388177
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 3014,
+    "fields": {
+        "code": 4,
+        "date": "2025-02-14",
+        "price": "39.45",
+        "qty": 6494095
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 3015,
+    "fields": {
+        "code": 4,
+        "date": "2025-02-17",
+        "price": "39.45",
+        "qty": 6854019
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 3016,
+    "fields": {
+        "code": 4,
+        "date": "2025-02-18",
+        "price": "39.50",
+        "qty": 7444959
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 3017,
+    "fields": {
+        "code": 4,
+        "date": "2025-02-19",
+        "price": "39.30",
+        "qty": 4250874
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 3018,
+    "fields": {
+        "code": 4,
+        "date": "2025-02-20",
+        "price": "39.65",
+        "qty": 6837096
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 3019,
+    "fields": {
+        "code": 4,
+        "date": "2025-02-21",
+        "price": "39.40",
+        "qty": 16634720
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 3020,
+    "fields": {
+        "code": 4,
+        "date": "2025-02-24",
+        "price": "39.75",
+        "qty": 9765737
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 3021,
+    "fields": {
+        "code": 4,
+        "date": "2025-02-25",
+        "price": "39.40",
+        "qty": 8472915
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 3022,
+    "fields": {
+        "code": 4,
+        "date": "2025-02-26",
+        "price": "39.85",
+        "qty": 8403775
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 3023,
+    "fields": {
+        "code": 4,
+        "date": "2025-02-27",
+        "price": "39.55",
+        "qty": 9317106
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 3024,
+    "fields": {
+        "code": 4,
+        "date": "2025-02-28",
+        "price": "38.85",
+        "qty": 16506111
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 3025,
+    "fields": {
+        "code": 4,
+        "date": "2025-03-03",
+        "price": "39.15",
+        "qty": 8207200
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 3026,
+    "fields": {
+        "code": 4,
+        "date": "2025-03-04",
+        "price": "38.65",
+        "qty": 13533894
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 3027,
+    "fields": {
+        "code": 4,
+        "date": "2025-03-05",
+        "price": "47.10",
+        "qty": 114869859
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 3028,
+    "fields": {
+        "code": 4,
+        "date": "2025-03-06",
+        "price": "51.55",
+        "qty": 88510645
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 3029,
+    "fields": {
+        "code": 4,
+        "date": "2025-03-07",
+        "price": "49.50",
+        "qty": 45375844
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 3030,
+    "fields": {
+        "code": 4,
+        "date": "2025-03-10",
+        "price": "49.60",
+        "qty": 21844267
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 3031,
+    "fields": {
+        "code": 4,
+        "date": "2025-03-11",
+        "price": "49.95",
+        "qty": 17670627
+    }
+},
+{
+    "model": "datamanages.st_data",
+    "pk": 3032,
+    "fields": {
+        "code": 4,
+        "date": "2025-03-12",
+        "price": "49.35",
+        "qty": 12772119
+    }
+}
+]

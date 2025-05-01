@@ -1,0 +1,21 @@
+.socialmediahover:hover{
+    color: white;
+  }
+.zoom-hover:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+#showcase-inner {
+  background-color: #343a40; /* Dark background for contrast */
+  color: white; /* Ensures text is readable */
+  padding: 3rem 0; /* Adds vertical spacing */
+  text-align: center; /* Centers text content */
+  /* background-image: url(../img/ittc_bground.png); Optional background image */
+  background-size: cover; /* Ensures the background covers the entire area */
+  background-position: center; /* Centers the background image */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+  width: 100vw; /* Ensures it spans the full viewport width */
+  min-height: 100vh; /* Ensures it covers the full viewport height */
+  margin: 0; /* Removes any default margin */
+  opacity: 1; /* Fully visible */
+}

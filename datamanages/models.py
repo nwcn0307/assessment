@@ -15,4 +15,12 @@ class St_data(models.Model):
     qty = models.IntegerField(default=0)
 
     def __str__(self):
+        return f"{self.code} - {self.date.strftime('%Y-%m-%d')}"  # Format the date as a string
+
+class Temp_St_data(models.Model):
+    date = models.DateField()
+    price = models.DecimalField(max_digits=10, decimal_places=2)  # Fixed typo here
+    qty = models.IntegerField(default=0)
+
+    def __str__(self):
         return self.date

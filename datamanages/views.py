@@ -1,11 +1,12 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib import messages
-from crud import export_all_data, import_all_data, clear_database, import_data, export_data
+from crud import export_all_data, import_all_data, clear_database, import_data, export_data, clear_data
 from excel_xlsx_csv import import_excel_data, data_to_django_fixture
 from django.core.files.storage import FileSystemStorage
 import pandas as pd
-from .models import St_data, St_company
+from .models import St_data, St_company, Temp_St_data
 import os
+from django.conf import settings
 
 def export_data_view(request):
     app_label = request.GET.get('app_label')  # Get app_label from the request
@@ -22,10 +23,45 @@ def export_data_view(request):
     except Exception as e:
         messages.error(request, f"Error exporting data: {str(e)}")
     return redirect('/admin/')
-    
+
+# def import_data_view(request):
+#     if request.method == 'POST' and request.FILES.get('json_file'):
+#         json_file = request.FILES['json_file']
+
+#         temp_dir = os.path.join(settings.MEDIA_ROOT, 'temp')
+#        # temp_dir = os.path.join(os.getcwd(), 'temp')  # Define the temp directory path
+
+#         # Ensure the temp directory exists
+#         if not os.path.exists(temp_dir):
+#             os.makedirs(temp_dir)
+
+#         file_path = os.path.join(temp_dir, json_file.name)
+
+#         # Save the uploaded file to the temp directory
+#         with open(file_path, 'wb') as f:
+#             for chunk in json_file.chunks():
+#                 f.write(chunk)
+
+#         # Import the data
+#         success = import_data(file_path)
+
+#         # Remove the temporary file
+#         os.remove(file_path)
+
+#         if success:
+#             messages.success(request, "Data imported successfully!")
+#         else:
+#             messages.error(request, "Error importing data.")
+#         return redirect('/admin/')
+
+#     return render(request, 'datamanages/import_data.html')    
 def import_data_view(request):
-        import_data()
-        messages.success(request, "Data imported successfully!")
+        
+        try:
+            import_data()  # Ensure this function is implemented correctly
+            messages.success(request, "Data imported successfully!")
+        except Exception as e:
+            messages.error(request, f"Error importing data: {str(e)}")
         return redirect('/admin/')
         
 def export_all_data_view(request):
@@ -42,13 +78,29 @@ def clear_database_view(request):
         clear_database()
         messages.warning(request, "Database cleared successfully!")
         return redirect('/admin/')
+
+def clear_data_view(request):
+        app_label = request.GET.get('app_label')  # Get the app_label from the query parameters
+        if not app_label:
+            messages.error(request, "App label is required to clear data.")
+            return redirect('/admin/')
+
+        success = clear_data(app_label)
+        if success:
+            messages.success(request, f"Data for the app '{app_label}' has been cleared successfully!")
+        else:
+            messages.error(request, f"Failed to clear data for the app '{app_label}'.")
+        return redirect('/admin/')
+        # clear_data()
+        # messages.warning(request, "Database cleared successfully!")
+        # return redirect('/admin/')
 # Create your views here.
 
 # def import_execl_data_view(request):
 #         import_execl_data()
 #         messages.success(request, "Data imported successfully!")
 #         return redirect('/admin/')
-        
+
 def datamanages(request):
     st_datas = None  # Initialize st_datas to None
     if request.method == 'POST' and request.FILES.get('excel_file'):
@@ -65,48 +117,72 @@ def datamanages(request):
             messages.error(request, f"Error reading Excel file: {str(e)}")
             return render(request, 'datamanages/datamanages.html', {"st_datas": st_datas})
 
-        # Convert DataFrame to Django fixture format
+        # Get or create the company
         company = excel_file.name[2:6]
         if not St_company.objects.filter(code=company).exists():
             code=company
             name=excel_file.name
             St_company.objects.create(code=code,name=name)
 
+        #df = pd.read_excel(file_path, sheet_name='Sheet JS', header=0)
+        # Save data to the database
+        for _, row in df.iterrows():
+            try:
+                # Validate required fields
+                if pd.isna(row['date']) or pd.isna(row['price']) or pd.isna(row['qty']):
+                    messages.warning(request, f"Skipping row with missing data: {row}")
+                    continue
 
-        # for row in df.iterrows():
-        #     try:
-        #     # Validate required fields
-        #         if pd.isna(row['date']):
-        #             messages.warning(request, f"Skipping row with missing data: {row}")
-        #             continue
+                # Get or create the company
+                company_instance, _ = St_company.objects.get_or_create(
+                    code=company, defaults={'name': excel_file.name}
+                )
 
-        #         # Create and save the stock data
-        #         St_data.objects.create(
-        #         code = code,
-        #         date=row['date'],
-        #         price=row['price'],
-        #         qty=row['qty']
-        #         )
-        #     except Exception as e:
-        #         print(f"Error: {e}")  # Debug: Print the error
-        #         messages.error(request, f"Error saving data: {str(e)}")
-        #         continue
-        for row in df.iterrows():
-            if not st_datas:
-                st_datas = St_data.objects.create(code=company, date=row['date'], price=row['price'], qty=row['qty'])
+                if not St_data.objects.filter(date=pd.to_datetime(row['date']).date()).exists():
 
+                # Create and save the stock data
+                    St_data.objects.create(
+                        code=company_instance,  # Use the St_company instance
+                        date=pd.to_datetime(row['date']).date(),# Access the 'date' column
+                        price=row['price'],     # Access the 'price' column
+                        qty=row['qty']          # Access the 'qty' column
+                    )
+
+
+            except Exception as e:
+                print(f"Error: {row} {e}")  # Debug: Print the error
+                messages.error(request, f"Error saving data: {str(e)}")
+                continue
 
         # Retrieve all data to display in the template
         st_datas = St_data.objects.all()
-        #st_datas.save()
         messages.success(request, "Data imported and saved successfully!")
-        # Ensure st_datas is not None
+
+    # Ensure st_datas is not None
     if st_datas is None:
         st_datas = St_data.objects.all()
 
-    context = {"st_datas" : st_datas}
+    context = {"st_datas": st_datas}
     return render(request, 'datamanages/datamanages.html', context)
 
+def data_to_django_fixture(df):
+    """
+    Convert a DataFrame to Django JSON fixture format.
+    """
+    # Convert the DataFrame to a list of dictionaries
+    data = df.reset_index().to_dict(orient='records')
+    #print(data)
+    # Prepare the data for Django JSON fixture format
+    django_fixture = [
+        {
+            "model": "datamanges.st_data",
+            #"model": "app_name.model_name",  # Replace with your app and model name
+            "pk": index + 1,  # Primary key starts from 1
+            "fields": record
+        }
+        for index, record in enumerate(data)
+    ]
+    return django_fixture
 def edit_st_data_view(request, id):
       st_data = get_object_or_404(st_data, id=id)
 

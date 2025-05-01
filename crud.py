@@ -80,6 +80,10 @@ def import_data(input_file=None):
         bool: True if successful, False otherwise
     """
     input_dir = "DATABASE/JSON" # Default folder for JSON files
+    if not os.path.exists(input_dir):
+        print(f"Folder '{input_dir}' does not exist.")
+        return False
+
     if input_file is None:
         root = tk.Tk()
         root.withdraw()  # Hide the root window
@@ -102,6 +106,34 @@ def import_data(input_file=None):
         print(f"Error importing data: {str(e)}")
         return False
 
+# def import_all_data():
+#     """
+#     Import data from all JSON files in the 'DATABASE/JSON' folder into the database.
+#     Handles foreign key relationships by importing parent models first.
+#     """
+#     input_dir = "DATABASE/JSON"
+#     if not os.path.exists(input_dir):
+#         print(f"Folder '{input_dir}' does not exist.")
+#         return False
+
+#     # Get all JSON files in the directory
+#     json_files = [f for f in os.listdir(input_dir) if f.endswith('.json')]
+
+#     # Sort files to ensure parent models are imported first
+#     # You can customize the order based on your app's model dependencies
+#     json_files.sort()
+
+#     try:
+#         for json_file in json_files:
+#             input_file = os.path.join(input_dir, json_file)
+#             print(f"Importing data from {input_file}...")
+#             management.call_command('loaddata', input_file)
+#         print(f"All data imported successfully from the '{input_dir}' folder.")
+#         return True
+#     except Exception as e:
+#         print(f"Error importing data: {str(e)}")
+#         return False
+    
 def import_all_data():
     """Import data from all JSON files in the 'Json' folder into the database"""
     input_dir = "DATABASE/JSON"
@@ -119,7 +151,6 @@ def import_all_data():
     print(f"All data imported successfully from the '{input_dir}' folder")
 
 # =============== GENERIC CRUD FUNCTIONS ===============
-
 
 def clear_database():
     """Clear all data from the database except for excluded apps"""
@@ -144,6 +175,40 @@ def clear_database():
         return True
     except Exception as e:
         print(f"Error clearing database: {str(e)}")
+        return False
+
+def clear_data(app_label):
+    """Clear all data from the specified app in the database.
+
+    Args:
+        app_label (str): The label of the app to clear data from.
+    """
+    excluded_apps = {'admin', 'auth', 'contenttypes', 'sessions'}
+    if app_label in excluded_apps:
+        print(f"Cannot clear data for the excluded app: {app_label}")
+        return False
+
+    try:
+        with transaction.atomic():
+            # Get the app configuration
+            app_config = apps.get_app_config(app_label)
+
+            # Delete all data from models in non-excluded apps
+            for model in app_config.get_models():
+                model.objects.all().delete()
+            
+            # Reset sequences for all models to avoid primary key conflicts
+            for model in app_config.get_models():
+                if hasattr(model, '_meta') and model._meta.managed:
+                    management.call_command('sqlsequencereset', app_label, stdout=sys.stdout)
+        
+        print(f"Database cleared successfully for the app: {app_label}")
+        return True
+    except LookupError:
+        print(f"App '{app_label}' not found.")
+        return False
+    except Exception as e:
+        print(f"Error clearing data for app '{app_label}': {str(e)}")
         return False
 
 

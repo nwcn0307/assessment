@@ -1,158 +1,48 @@
 <!-- shopping Cart -->
-{% extends "base.html" %} {% load humanize %} {% block shoppingCart %}
-{% comment %} {% if user.is_authenticated %} {% endcomment %}
-{% comment %} {% load cart_extras %} {% endcomment %}
+{% extends "base.html" %} {% load static %} {% load humanize %} 
+{% block Content %}
 
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        const decrementButtons = document.querySelectorAll(".decrement");
-        const incrementButtons = document.querySelectorAll(".increment");
-        const qtyInputs = document.querySelectorAll(".qty-input");
-        const amountSpans = document.querySelectorAll(".amount-span");
-        const totalAmountSpan = document.getElementById("total-amount");
-        const prices = document.querySelectorAll(".price-input");
-
-        // Update the amount dynamically for each order
-        function updateAmount(index, qty) {
-            const price = parseFloat(prices[index].value);
-            const amount = price * qty;
-            amountSpans[index].textContent = `$${amount.toFixed(2)}`;
-            updateTotalAmount();
-        }
-
-        // Update the total amount dynamically
-        function updateTotalAmount() {
-            let totalAmount = 0;
-            qtyInputs.forEach((qtyInput, index) => {
-                const qty = parseInt(qtyInput.value);
-                const price = parseFloat(prices[index].value);
-                totalAmount += qty * price;
-            });
-            totalAmountSpan.textContent = `$${totalAmount.toFixed(2)}`;
-        }
-
-        // Handle decrement button click
-        decrementButtons.forEach((button, index) => {
-            button.addEventListener("click", function () {
-                const qtyInput = qtyInputs[index];
-                let qty = parseInt(qtyInput.value);
-                if (qty > 0) {
-                    qty -= 1;
-                    qtyInput.value = qty;
-                    updateAmount(index, qty);
-                }
-            });
-        });
-
-        // Handle increment button click
-        incrementButtons.forEach((button, index) => {
-            button.addEventListener("click", function () {
-                const qtyInput = qtyInputs[index];
-                let qty = parseInt(qtyInput.value);
-                qty += 1;
-                qtyInput.value = qty;
-                updateAmount(index, qty);
-            });
-        });
-
-        // Initialize amounts on page load
-        qtyInputs.forEach((qtyInput, index) => {
-            const qty = parseInt(qtyInput.value);
-            updateAmount(index, qty);
-        });
-    });
-</script>
-<!--div class="sticky toggle-nav float-center" id="toggle-nav" aria-label="Toggle navigation" aria-expanded="farlse"-->
-{% if takeOrders %}
-<section class="container">
-    {% if shopping_cart.orders.all %}
-    <h3 class="text-center">Your Shopping Cart</h3>
-        <button class="btn-primary btn-block btn-lg" data-toggle="modal" data-target="#shipmentModal">Place Order</button>
-    {% include "partials/_alert.html" %}
-    <div class=" row">
-        {% for order in shopping_cart.orders.all %}
-        <div class="col-md-3 col-lg-2 mb-2" style="width: 18rem;">
-            <div class="card">
-                <img src="{{ order.product.photo_main.url }}" class="card-img-top" alt="{{ order.product.title }}">
-                <div class="card-body">
-                    <h5 class="card-title">{{ order.product.title }}</h5>
-                    <p class="card-text">Model No: {{ order.product }}</p>
-                    <p class="card-text">Price: ${{ order.price }}</p>
-                    <p class="card-text">Quantity: {{ order.onOrderQty }}pcs.</p>
-                    <p class="card-text">Amount: ${{ order.amount }}</p>           
-                    <a href="{% url 'delete_take' order.id %}" class="btn btn-danger">Remove</a>
-                </div>
-            </div> 
-        </div>
-        {% endfor %}
-        {% else %}
-        <p>Your shopping cart is empty.</p>
-        {% endif %}
+<!-- Breadcrumb -->
+<section id="bc" class="mt-3">
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="{% url 'index' %}"> <i class="fas fa-home"></i> Home</a>
+                </li>
+                <li class="breadcrumb-item active">Charts</li>
+            </ol>
+        </nav>
     </div>
-    <!-- shipment Modal -->
-    <div class="modal fade" id="shipmentModal" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header text-warning">
-                    <h5 class="modal-title" id="shipmentModalLabel">Confirm Order</h5>
-                    <button type="button" class="close  text-warning" data-dismiss="modal">
-                    <span>&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <!-- add action in form -->
-                    <form action="{% url 'confirmOrder' %}" method="POST">
-                        {% csrf_token %}   
-                        <!-- check user id -->
-                        {% if user.is_authenticated %}
-                        <input type="hidden" name="user_id" value="{{user.id}}" />
-                        {% else %}
-                        <input type="hidden" name="user_id" value="0" />
-                        {% endif %}
-                        {% if activity.price == '0' %}
-                        <input type="hidden" name="is_paid" value="True" />
-                        {% else %}
-                        <input type="hidden" name="is_paid" value="False" />
-                        {% endif %}
-                        <p>Total Amount: $<span id="total-amount">{{total_Amount}}</span></p>
-                        <input type="hidden" name="total_Amount" value="{{ total_Amount }}" />
-                        <input type="hidden" name="ordered" value="True" />
-                        <!-- end checking -->
-                        <label class="col-form-label">Please fill in your more info for the shipment:</label>
-                        <!--div class="form-group"-->
-                        <div class="form-group">
-                            <label for="ShoppingCart_address" class="col-form-label">Address:</label>
-                            <input type="text" name="address" class="form-control" value="{{shopping.address}}" />
-
-                            <label for="ShoppingCart_street" class="col-form-label">Street:</label>
-                            <input type="text" name="street" value="{{ahoppingCart.street}}" class="form-control" />            
-                            <div class="col-form-label">
-                                <label for="ShoppingCart_district" class="col-form-label">District:</label>
-                                <select name="district" class="form-control">
-                                    <option {% if not values.district %} selected= "true" {% endif %} value="">Districts: </option>
-                                    {% for key,value in district_choices.items %}
-                                    <option {% if key == values.district %} selected {% endif %}>{{value}}
-                                    </option>
-                                    {% endfor %}
-                                </select>
-                                <!--input type="text" name="district" value="{{shoppingCart.district}}" class="form-control" /-->
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="message" class="col-form-label">More special enquiry:</label>
-                            <textarea name="description" class="form-control"></textarea>
-                        </div>
-                        <hr />
-                        <input type="submit" value="Send" class="btn btn-block btn-secondary"/>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    <hr/>
-    <br/>
-    <hr/>
 </section>
-{% endif %}
+<section id="bc" class="mt-3">
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item">
+            <a href="{% url 'index' %}"> <i class="fas fa-home"></i> Home</a>
+          </li>
+          <li class="breadcrumb-item active">About</li>
+        </ol>
+      </nav>
+    </div>
+</section>
+
+<section id="charts" class="py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+        <!--div class="sticky toggle-nav float-center" id="toggle-nav" aria-label="Toggle navigation" aria-expanded="farlse"-->
+            <h3>Comming second stage function :</h3>
+            <ol>
+                <li><h4>data chart for HS index</h4></li>
+                <li><h4>data chart for interest stock</h4></li>
+                <li><h4>others........</h4></li>
+            </ol>
+        </div>
+      </div>
+    </div>
+</section>
+
 
 {% endblock %}

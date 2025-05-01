@@ -1,0 +1,8 @@
+#accordionExample{
+    position: fixed; /* Keeps it at a fixed position relative to the viewport */
+    top: 50px; /* Adjust the top margin */
+    left: 50%; /* Center it horizontally */
+    transform: translateX(-50%); /* Adjust centering */
+    z-index: 1050; /* Ensure it stays on top of other elements */
+    width: 80%; /* Adjust the width to fit your design */
+  }

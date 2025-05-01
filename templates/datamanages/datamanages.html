@@ -4,16 +4,17 @@
     <!-- Team Section -->
 <section>
   <div class="container">
-    <div class="accordion" id="accordionExample">
-      <!--breadcrumb-->
-      <nav aria-label="breadcrumb">
-        <ol class="breadcrumb"style="width: 100%;">
-          <li class="breadcrumb-item">
+
+    <!--breadcrumb-->
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb"style="width: 100%;">
+        <li class="breadcrumb-item">
             <a href="{% url 'index' %}"> <i class="fas fa-home"></i> Home</a>
-          </li>
-          <li class="breadcrumb-item active">Resources</li>
-        </ol>
-      </nav>
+        </li>
+        <li class="breadcrumb-item active">Resources</li>
+      </ol>
+    </nav>
+    
       <div class="card">
         <!-- File Upload Form -->
         <form method="POST" enctype="multipart/form-data">
@@ -48,7 +49,7 @@
                 <td>{{ st_data.code }}</td>
                 <td>{{ st_data.date }}</td>
                 <td>{{ st_data.price }}</td>
-                <td>{{ st_data.Qty }}</td>
+                <td>{{ st_data.qty }}</td>
                 <td><a class="btn btn-info" href="{% url 'edit_st_data' st_data.pk %}">edit</a>
                 </td>
               </tr>
@@ -60,7 +61,6 @@
         {% endif %}
         {% comment %} <a class="btn btn-info" href="{% url 'import_data_action' %}"> Save Stock Record</a> {% endcomment %}
       </div>
-    </div>
   </div>      
 </section>
 

@@ -1,7 +1,7 @@
 from django.contrib import admin, messages
-from crud import export_all_data, import_all_data, clear_database, export_data, import_data
+from crud import export_all_data, import_all_data, clear_database, export_data, import_data, clear_data
 from django.contrib import admin
-from .models import St_company, St_data
+from .models import St_company, St_data, Temp_St_data
 
 class CustomAdmin(admin.ModelAdmin):
     # Add custom actions
@@ -64,17 +64,35 @@ class CustomAdmin(admin.ModelAdmin):
 
     import_data_action.short_description = "Import Data"
 
+@admin.action(description="Clear all data for this app")
+def clear_app_data(modeladmin, request, queryset):
+    app_label = modeladmin.model._meta.app_label
+    success = clear_data(app_label)
+    if success:
+        messages.success(request, f"All data for the app '{app_label}' has been cleared successfully.")
+    else:
+        messages.error(request, f"Failed to clear data for the app '{app_label}'.")
 
 # Register your models here.
+@admin.register(St_data)
 class St_dataAdmin(admin.ModelAdmin):
     list_display = ('code', 'date', 'price', 'qty')
     list_filter = ('code', 'date')
     search_fields = ('code', 'date')
-
-admin.site.register(St_data, St_dataAdmin)
+    actions = [clear_app_data]
+# admin.site.register(St_data, St_dataAdmin)
 
 class St_companyAdmin(admin.ModelAdmin):
     list_display = ('code', 'name')
     wearch_fields = ('code', 'name')
+    actions = [clear_app_data]
 
 admin.site.register(St_company, St_companyAdmin)
+
+class Temp_St_dataAdmin(admin.ModelAdmin):
+    list_display = ('date', 'price', 'qty')
+    list_filter = ('date',)
+    search_fields = ('date',)
+    actions = [clear_app_data]
+    
+admin.site.register(Temp_St_data, Temp_St_dataAdmin)
